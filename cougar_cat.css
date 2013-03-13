@@ -1,0 +1,430 @@
+/*Original cougar_cat.css diff'd with cougar.css to isolate modifications */
+
+body{font-family:Arial, Helvetica, sans-serif;font-size:.8em}
+h1,h2,h3,h4,h5,p,strong,em,th,td,div,li{font-family:Arial, Helvetica, sans-serif}
+a,a:link,a:hover,a:active,a:visited{font-family:Arial, Helvetica, sans-serif;color:#069}
+a img{border:none}
+img[src="/screens/invisible.gif"]{display:none}
+form{margin:0;padding:0}
+#library-header-wrapper,#site-title-wrapper,#container{min-width:970px}
+h1.page-title{margin-top:-25px}
+.library_catalog #page-content-main{color:#333}
+.library_catalog #page-content-main-inner{background-color:#fff;padding-top:10px}
+.library_catalog #right-sidebar-holder{margin:10px 0 10px -330px!important}
+.library_catalog #right-sidebar-holder .right-row{width:275px!important}
+.catalog_layout #right-sidebar-holder .field-field-sidebar1-heading .field-item{width:265px !important}
+#site-navi,.navigationRow{padding:0 7px;text-align:left;height:28px;clear:both;z-index:1;*width:900px;margin:14px auto 0px auto;min-width:860px;max-width:900px}
+#site-navi #marcDisplaylink, #site-navi #simlink, #site-navi #marcDisplay,#site-navi #saveRecord,#site-navi a #limitSearch,#site-navi a #limitSearchlink{display:none;width:0px;padding:0}
+.navigationRow img,center a img,#site-navi img, #site-navi2 img{display:none;border:none}
+center #library_footer a img{display:inline}
+#toggleResultsDisplay{display:none}
+.bibNavRow{cursor:pointer}
+#site-navi a,a#newSearchlink,a#extendedDisplaylink,a#userRecordlink,.library_catalog #page-content-main-inner.export_page a#prevScreenlink,a#logoutlink,a#clearSavedlink,.navigationRow a,.magFive a{visibility:visible;z-index:1;background:url(https://biblio.csusm.edu/sites/all/images/buttons/blue-button.png) 0% 99% repeat-x/*#164d59 #658628*/;display:block;padding:0;float:left;margin:0 4px -7px 0px;outline:none;text-decoration:none;-moz-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;-webkit-border-radius:3px 3px 0 0}
+#site-navi a:hover,a#newSearchlink:hover,a#extendedDisplaylink:hover,.library_catalog #page-content-main-inner.export_page a#prevScreenlink:hover,a#clearSavedlink:hover,.navigationRow a:hover,.magFive a:hover{z-index:1;filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity:0.8;opacity:0.8}
+a#newSearchlink img{display:none}
+a #newSearch, a #Ret2Browse, a #modifySearch, a #viewSaved, a #clearSaved, a #prevScreen, a #extendedDisplay, a #userLogout,a #userRecord, a #userAccount,.magFive a, #site-navi a #sdCircuit, #site-navi a #worldCat, #site-navi a #worldCatB, .navigationRow a #sdCircuit, .navigationRow a #worldCat, .navigationRow a #extendedDisplay, .navigationRow a #briefDisplay, .navigationRow a #displayAvail,.navigationRow a #regularDisplay,.navigationRow a #limitSearch{outline:none;text-decoration:none;display:block;color:#fff;font-weight:bold;padding:7px 10px 13px 30px;z-index:1;float:left;-moz-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;-webkit-border-radius:3px 3px 0 0;box-shadow:0 -2px 6px #ddd;-moz-box-shadow:0 -2px 6px #ddd;-webkit-box-shadow:0 -2px 6px #ddd}
+a #newSearch{padding:7px 10px 13px 37px;background:url(/images/catalog/home.png) 7px 25% no-repeat}
+#site-navi a #modifySearch, .navigationRow a #modifySearch{background:url(/images/catalog/filter.png) 7px 50% no-repeat}
+#site-navi a #worldCat, #site-navi a #worldCatB, .navigationRow a #worldCat{padding:7px 10px 13px 34px;background:url(/images/catalog/worldcat.png) 7px 30% no-repeat}
+#site-navi a #sdCircuit, .navigationRow a #sdCircuit{padding:7px 10px 13px 49px;background:url(/images/catalog/circuit.png) 7px 30% no-repeat}
+a #userLogout,#site-navi a #userLogout, .navigationRow a #userLogout{background:url(/images/buttons/logout.png) 7px 50% no-repeat}
+#site-navi a #viewSaved, center a #viewSaved, .navigationRow a #viewSaved{background:url(/images/catalog/catalog_sprite1-pub.png) 7px -44px no-repeat}
+a #clearSaved{background:url(/images/catalog/clear_list.png) 7px 50% no-repeat}
+.navigationRow a #worldCat,.navigationRow a #userLogout,#site-navi a #userLogout,#showSimilar,#anotherSearch,.navigationRow a #kwSearch,.navigationRow a #extendedDisplay,a #extendedDisplay,.navigationRow a #briefDisplay{display:none}
+.navigationRow #sdCircuitlink,.navigationRow #worldCatlink,a#logoutlink,#site-navi #sdCircuitlink,#site-navi #worldCatlink{float:right}
+#logoutlink{margin-left:10px}
+#site-navi a#viewSavedlink,.navigationRow a#viewSavedlink{margin-left:20px}
+#bibDisplayContent{border:none;border-style:none}
+.browseScreen{clear:both;padding:0;margin:0 auto 20px auto;*width:930px;min-width:860px;max-width:950px}
+.pageContentColumn{font-size:1.1em}
+
+/* Widget holder */
+.browseSearchtool /* search results*/,
+.bibSearch /* bib record */,
+.bibSearchtool /* user account */{
+text-align:left;background:none;padding:0;*width:940px;margin:0 auto;min-width:870px;max-width:940px;z-index:5;border:none}
+.browseSearchtool form,.bibSearch form,.bibSearchtool form{z-index:5;float:left;font-style:normal;margin-top:-2px;width:100%;min-width:850px;position:relative;padding:16px 10px 49px 2%;background:url(/images/bg.gif) 0 100% repeat-x #fff;border:1px solid #ddd;}
+.bibSearch form{margin-top:3px}
+
+/* Search Form Fields */
+#site-navi select,.navigationRow select,.bibSearchHistory select,select,input{padding:2px;font-size:1.1em;border:1px solid #aaa;background:#fff url(/images/catalog/catalog_sprite1-pub.png) 0 -216px repeat-x}
+input[type="radio"],input[type="checkbox"]{background-color:transparent;background-image:none;border:none}
+input[type="hidden"]{margin:0;padding:0;height:0px;width:0px}
+.browseSearchtool select,.browseSearchtool input,.bibSearch form select,.bibSearch form input,.bibSearchtool form select,.bibSearchtool form input{padding:4px 2px}
+.browseSearchtool select,.bibSearch form select,.bibSearchtool form select{padding:4px 2px;*font-size:1.2em;*margin-bottom:4px}
+.browseSearchtool form #searchtype,.bibSearch form #searchtype,.bibSearchtool form #searchtype{text-transform:lowercase;width:150px}
+.navigationRow select{position:absolute;top:118px;left:320px;border:1px solid #aaa}
+.navigationRow form select[name="HISTORY"]{border:1px solid #999;left:695px;*left:688px;max-width:390px;margin:-2px 0 0;position:absolute;z-index:100;*top:26px;*margin-top:83px}
+.bibSearchHistory select{border:1px solid #999;left:460px;top:115px;position:absolute;z-index:100;*top:26px;padding:4px 2px}
+.browseSearchtool form input[type="text"],.bibSearch form input[type="text"],.bibSearchtool form input[type="text"]{background:url(/images/catalog/search.png) 3px 5px no-repeat #fff;border:1px solid #aaa;width:330px;color:#565656;font-size:1.35em;padding:4px 2px 5px 30px}
+.browseSearchtool form input[name="searchscope"],.bibSearch form input[type="searchscope"],.bibSearchtool form input[type="searchscope"]{width:180px;clear:right}
+#sort_cell{display:block;position:absolute;*margin-top:32px;z-index:100;width:250px;*left:3%}
+#sort_cell #sortdropdown{margin-top:9px}
+#sort_cell #sortbutton{position:absolute;margin-top:4px;*margin-top:0px;width:60px;padding:3px 3px 1px}
+.browseScreen td.browseSaveJump{padding:0;margin:0}
+.browseSaveJump input{font-size:1em;text-align:right;width:auto;padding:4px 1px 1px 4px}
+form input[type="submit"],.browseSaveJump input.browseSaveJump,.browseSearchtool input[type="submit"],.bibSearch form input[type="submit"],.bibSearchtool form input[type="submit"],.browseSearchtool form #sortbutton,.bibSearchtool form #sortbutton,.bibSearchtool form input[type="submit"],.browseList #save_page_btn1 span,#btnLogin,.limit-search-buttons a{background:transparent url(https://biblio.csusm.edu/sites/all/images/buttons/blue-button.png) no-repeat top;border:1px solid #fff;color:#fff;cursor:pointer;font-size:1.1em;margin:0 4px;padding:4px 8px;text-transform:capitalize;outline:1px solid #9BABB0;-moz-border-radius:4px;-moz-outline-radius:4px;-webkit-border-radius:4px}
+.bibSearch form input[type="submit"]{margin-top:3px;position:absolute}
+input[name="availlim"]{margin-top:10px;*margin-top:7px;margin-left:250px;float:left}
+form span.lim2Avail{margin-top:9px;display:block;font-size:1.1em;margin-left:3px;float:left;font-style:normal}
+.bibSearch input[name="availlim"],.bibSearch form span.lim2Avail{display:none}
+.browseSearchtool form input[name="SUBPREF"],.bibSearch form input[name="SUBPREF"]{background-image:none;color:#069;float:left;outline:none;border:none;margin-left:335px;text-decoration:underline;padding:5px 0 0}
+.bibSearch form input[name="SUBPREF"]{display:none}
+#save_page_btn1{position:absolute;width:150px;display:block;margin:9px 0 0 2px;*margin-top:11px}
+.browseSaveJump #save_page_btn1 input[type="submit"]{position:relative;font-size:.9em;width:115px}
+#site-navi #saveRecordlink,#site-navi #rmSavedItem,#view-changer,.browseSaveJump #save_page_btn1 input[type="submit"]{cursor:pointer;border:none;outline:none;padding:0;margin:0 0 0 -10px;color:#036;background-image:none;background-color:transparent;-moz-border-radius:0;-moz-outline-radius:0;-webkit-border-radius:0px}
+#view-changer{z-index:50;text-align:center;border:1px solid #797979;background:#f9f9f9;display:inline-block;float:right;font-size:.9em;margin-top:-8px;*margin-top:-22px;padding:3px 13px;-moz-border-radius:4px;-moz-outline-radius:4px;-webkit-border-radius:4px}
+#view-changer:hover{filter:alpha(opacity=70);-moz-opacity:0.7;-khtml-opacity:0.7;opacity:0.7}
+.browseSaveJump form#jumpform #jumpformbutton{font-size:.95em;padding:2px 6px 0}
+form#spellcheck select{font-size:.85em;padding:2px 1px}
+#site-navi #saveRecord,#site-navi .list_remove{width:80px;padding:5px 6px 4px 28px;display:block;border:1px solid #ccc;background:url(/images/catalog/catalog_sprite1-pub.png) 4px -25px no-repeat #CFDAFE;-moz-border-radius:4px;border-radius:4px;color:#333;box-shadow:0 0 9px #ddd;-moz-box-shadow:0 0 9px #ddd;-webkit-box-shadow:0 0 9px #ddd}
+#site-navi #saveRecordlink{cursor:pointer;position:absolute;top:184px;*top:154px;z-index:200;font-size:1em;left:47px;font-weight:bold;background:url(http://library.csusm.edu/search/images/bg.gif) 0 100% repeat-x #fff}
+#site-navi .list_remove{left:34px;background-position: 4px -48px;position:absolute;top:184px;*top:154px}
+#export_form{position:relative;z-index:5;margin:10px 0 0;padding:0}
+.browseSaveJump input.browseSaveJump{/* save all button on title/author/subject Index browse */
+width:auto;*width:140px;text-align:center;font-size:.9em;*top:-2px;padding:5px 4px 1px;*padding-top:2px}
+input[type="submit"]:hover{outline:1px solid #9BABB0;background-position:bottom;cursor:pointer}
+#spellcheckholder{margin:43px 0 0 170px;position:absolute;width:333px;padding:0 17px 3px;z-index:100}
+.bibSearch #spellcheckholder{margin-top:50px}
+form#spellcheck a,form#spellcheck a:link,form#spellcheck a:hover,form#spellcheck a:visited{color:#fff;font-weight:bold}
+form#spellcheck{z-index:3;min-width:333px;width:333px;padding:8px 0 10px 20px;background-image:none;background-color:#4290C1;color:#fff;margin:0;font-size:1.1em;-moz-border-radius:0;border-radius:0}
+#spellcheckhide{border:1px solid #bbb;background:url(http://biblio.csusm.edu/misc/sortable.png) 50% 50% no-repeat #fafafa;margin-right:9px;height:14px;margin-top:-2px;float:right;padding:3px 10px 1px;color:#036;cursor:pointer}
+.browseSearchtoolMessage,.bibSearchtoolMessage{padding:8px 10px 6px;margin:0;font-size:1.1em;position:absolute;top:160px}
+.browseSearchtoolMessage i,.bibSearchtoolMessage i{font-weight:bold;font-style:normal}
+.browseScreen td.browsePager{font-weight:normal;text-align:right;font-size:1em;/*z-index:1;*/float:right;display:block;*position:relative;vertical-align:top;padding:6px 4px 0 10px}
+.browseScreen td.browsePager strong,.browseScreen td.browsePager a{border:0px;font-size:1em;display:inline-block;text-decoration:none;font-weight:normal;text-align:center;border-right:1px solid #ccc;padding:0 3px;margin:0 4px}
+.browseScreen td.browsePager strong{font-size:1.3;font-weight:bold;color:#565656}
+.browseScreen .browseSaveJump{background:transparent}
+.browseSaveJump form#jumpform a{text-decoration:none;color:#444}
+.browseScreen .browseHeaderData{background:transparent;z-index:50;padding-top:8px;padding-left:125px;border:none;text-align:left;color:#575757;font-size:1.1em;height:20px}
+table.browseScreen table{margin:15px auto 20px auto;*margin:-5px;*width:930px;min-width:860px;max-width:930px}
+.browseSuperEntry{display:none}
+.briefcitTableRow,.briefcitTableCell{border:none;margin:0;padding:0}
+.briefcitHolder{margin:0;border:none;border-top:1px #ccc dotted;padding:10px 3px 18px}
+tr.briefcitTableRow .briefcitHolder:hover{background:#FFFFC6 /*#FCFAA7*/}
+.briefcitEntry{float:left;width:111px}
+.briefcitEntryNum{float:left;clear:right;font-size:.9em;width:20px;text-align:right;z-index:5;color:#575757;padding-right:10px;font-weight:normal;text-transform:lowercase}
+.briefcitEntryMark{z-index:5;float:left;padding:0 5px;width:70px;overflow:hidden}
+.briefcitEntryMark a{text-decoration:none;font-size:.9em}
+.briefcitEntryMark .list_add{padding-left:26px;cursor:pointer;height:22px;background:url(/images/catalog/catalog_sprite1-pub.png) 0px -28px no-repeat}
+.briefcitEntryMark .list_remove{cursor:pointer;padding-left:26px;height:22px;background:url(/images/catalog/catalog_sprite1-pub.png) 0px -51px no-repeat}
+.briefcitEntryMark img{display:none}
+.briefcitMedia{color:#555;text-transform:lowercase;font-style:italic}
+.briefcitDetail{padding:0;min-width:660px;max-width:860px;margin:0}
+.briefcitHolder .briefcitTitle{color:#036}
+.briefcitHolder .briefcitTitle:after{color:#898989;margin:0 8px;content:"  |  "}
+.briefcitHolder a{text-decoration:none}
+.briefcitHolder a:hover{text-decoration:underline}
+.briefcitHolder .briefcitTitle a{font-size:1.1em;color:#1462a6 /*#4698e1 #5ba5e5 #7C5FC9 #523FA9 #514060*/;text-decoration:none}
+.briefcitHolder .briefcitTitle a:hover{color:#3E80E1;text-decoration:underline}
+.briefcitYear{display:inline-block;padding-left:12px;font-style:italic}
+.briefcitHolder .briefcitItems{max-width:600px;margin:7px 0 0 112px;*margin:7px 0 0}
+.browseScreen table .briefcitHolder .briefcitItems table.bibItems, .browseSubEntryData, .browseSubEntryMedia, .browseSubEntryYear{margin:3px 0 0;width:auto;*width:500px;min-width:500px;max-width:500px;border-collapse:separate;background:transparent;border:hidden;padding:0}
+	.itemtableholder{width:500px}
+	.briefcitActions{display:inline;text-align:left;height:auto;padding:0}
+.briefcitHolder .bibItemsHeader{text-transform:capitalize}
+.briefcitHolder .bibItems tr{border-bottom:1px solid #ccc}
+.briefcitHolder .bibItems td,.briefcitHolder .bibItems th, .browseSubEntryData, .browseSubEntryMedia, .browseSubEntryYear{font-size:1.05em;vertical-align:top;text-indent:-3px;padding:3px 6px 1px 0;text-transform:lowercase}
+.briefcitHolder .bibItems th{text-indent:0px;text-align:left}
+.briefcitHolder .bibItems td a{font-size:1em;text-transform:none}
+
+/* Browse results display */
+.browseList .browseHeader td{position:relative;width:auto;text-align:center;border:none;padding:0 0 4px;margin:0}
+.browseList .browseHeader td.browseHeaderEntries{width:100px;height:10px;overflow:hidden}
+.browseList .browseHeader td.browseHeaderYear{min-width:100px}
+.browseList .browseHeader td.browseHeaderNum,.browseList .browseHeader td.browseHeaderMark,.browseList .yourEntryWouldBeHere td.browseEntryMark,.browseList .browseEntry td.browseEntryMark,.browseList .browseEntry td.browseEntryNum,.browseList td.browseSaveJump form#export_form a,.browseList td.browseSaveJump a input.browseSaveJump,.browseList td.browseSaveJump form#export_form input,.browseList td.browseSaveJump #save_page_btn2{display:none;*display:block;*visibility:hidden}
+.library_catalog #page-content-main-inner.export_page{	border:1px solid #ccc}
+.library_catalog #page-content-main-inner.export_page table.browseScreen table.browseList tr.browseHeader td.browseHeaderNum,.library_catalog #page-content-main-inner.export_page .browseList .browseHeader td.browseHeaderMark,.library_catalog #page-content-main-inner.export_page .browseList .browseEntry td.browseEntryNum,.library_catalog #page-content-main-inner.export_page .browseList .browseEntry td.browseEntryMark{display:table-cell;visibility:visible}
+.library_catalog #page-content-main-inner.export_page .browseList form#export_form a,.library_catalog #page-content-main-inner.export_page .browseList form#export_form input{display:block;visibility:visible}
+.library_catalog #page-content-main-inner.export_page .browseList .browseHeader td.browseHeaderNum,.library_catalog #page-content-main-inner.export_page .browseList .browseHeader td.browseHeaderMark{width:50px;text-align:left}
+.browseScreen table.browseList td.browseSaveJump{height:0px;padding:0}
+.browseList #view-changer{display:none}
+.browseScreen table.browseList{width:930px}
+.browseScreen table.browseList #save_page_btn1,.browseScreen table.browseList input.browseSaveJump{position:relative;margin:0 10px 0;display:inline;*float:left;*display:block;*padding:4px 8px;width:auto}
+.browseScreen table.browseList #save_page_btn1{top:-1px;display:inline-block;*display:block}
+.browseScreen table.browseList tr{border:none}
+.browseScreen table.browseList tr.browseEntry:hover{background:#FFFFC6 /*#FCFAA7*/}
+.browseScreen table.browseList tr.browseEntry td{height:40px;vertical-align:top;border-top:1px dotted #ababab}
+.browseScreen table.browseList td.browseEntryMark input{border:none}
+.browseScreen table.browseList td a{text-decoration:none}
+.browseScreen table.browseList td a:hover{text-decoration:underline}
+.browseScreen table.browseList tr.yourEntryWouldBeHereData{border:none}
+.browseScreen table.browseList td.yourEntryWouldBeHereData{background:url(/images/catalog/info_blue.png) 10px 10px no-repeat #FEFDC5;font-size:1.1em;color:#444;padding:12px 20px 10px 50px;text-align:left;border-radius:6px 6px 6px 6px;-moz-border-radius:6px 6px 6px 6px;-webkit-border-radius:6px 6px 6px 6px}
+.browseScreen table.browseList td.yourEntryWouldBeHereData font{color:#222;font-size:1.2em}
+.browseScreen table.browseList td.yourEntryWouldBeHereData b{color:#696969;width:97%;margin:0 20px 4px 0;clear:both;display:block}
+.browseScreen table.browseList td.yourEntryWouldBeHereData a{background:url(/images/catalog/search-sm-sepia.png) 0px 50% no-repeat transparent;float:left;display:block;clear:both;text-decoration:underline;margin-left:34px;padding:3px 0 6px 24px}
+.msg td{padding:10px 0 0 80px;background: url(http://biblio.csusm.edu/images/icons/smile_sad_48.jpg) no-repeat 0 50%;height:70px;font-size:1.35em;text-align:left;font-weight:bold;color:#F90}
+
+/* Item-level display */
+#bibDisplayBody{margin:-10px 0 0;padding:0;background:#fff}
+.catalog_layout #bibDisplayBody{margin:0;background:transparent}
+#bibDisplayBody .bibHistoryRow{text-align:right}
+.bibPager{margin:10px 0 20px 0}
+#bibDisplayContent{margin:0;padding:0}
+#bibDisplayContent a:link{text-decoration:none;color:#36C}
+#bibDisplayContent a:hover{color:#F60}
+#bibDisplayContent a:visited{text-decoration:none;color:#039}
+#bibDisplayContent .bibTabs a:link, #bibDisplayContent .bibTabs a:visited, #bibDisplayContent .bibTabs a:active{color:#000;text-decoration:none;outline:none}
+.bibPager a,.bibPager a:link,.bibPager a:hover,.bibPager a:active,.bibPager a:visited{display:inline-block;padding:4px 18px;background:#efefef;text-decoration:none;border:1px solid #cecece;color:#036;margin:0 5px;box-shadow:0 0 9px #ddd;-moz-box-shadow:0 0 9px #ddd;-webkit-box-shadow:0 0 9px #ddd}
+.bibDisplayContentMain{width:100%;float:left}
+.catalog_layout #bibLeft{float:left;margin-left:-100%;width:150px;padding-top:110px}
+.catalog_layout #bibCentral{width:auto;padding:20px 0 10px 10px;margin:0 230px 10px 150px}
+#bibRight{display:none}
+.catalog_layout #bibRight{display:block;float:right;width:230px;margin-left:-230px;padding-top:10px}
+
+/* bibLeft */
+#bookcover a:hover img{filter:alpha(opacity=80);-moz-opacity:0.80;-khtml-opacity:0.80;opacity:.80}
+.bookjacket{background:url(/images/icons/book_cover_not_ava.jpg) 50% 15px no-repeat transparent;width:120px;height:150px}
+.bookjacket img{width:120px;height:150px}
+
+/* bibCentral */
+
+/* Author, title, imprint */
+#bibDisplayLayout{width:93%;padding:0;background:#fff}
+.bibInfoLabel,.bibInfoData,.bibLinks th,.bibLinks td,.bibDetail,.briefcitDetail{font-size:1em}
+.briefcitDetail br{display:inline}
+#titleholder .bibInfoData{font-size:1.2em}
+.bibDetail{margin:0}
+.bibDetail .bibInfoLabel{color:#595959;width:75px;padding:4px 6px}
+.bibDetail .bibInfoData{padding:5px 6px}
+.bibDetail .bibInfoData strong{font-size:1.15em;line-height:120%;font-weight:normal}
+.bibDetail .bibInfoData strong font{color:#690;font-size:.9em;border-bottom:1px dotted #ccc}
+#google{position:absolute;left:360px;margin-top:-22px}
+.bibRecordLink{text-align:left;padding-left:5px;margin-bottom:10px}
+.bibRecordLink #recordnum{font-size:.9em;padding-right:15px;font-style:normal;text-decoration:none}
+.bibResourceSidebar{background:transparent}
+#bibDisplayContent a{text-decoration:underline;color:#06C}
+#bibDisplayContent table.bibLinks{border:none;border-collapse:collapse;padding:0;background:#EDF3FC;border:none;width:90%;margin:15px 0 0 15px}
+#bibDisplayContent table.bibLinks tr,#bibDisplayContent table.bibLinks th,#bibDisplayContent table.bibLinks td{padding:1px 4px;float:left;text-align:left;border:none}
+#bibDisplayContent table.bibLinks th{float:none;clear:both;width:580px;text-align:left;padding:5px 0 5px 6px;font-size:1em;color:#595959}
+#bibDisplayContent table.bibLinks td{width:auto;padding:5px 6px 5px 2px}
+
+/*our holdings tab*/
+.holdingsDivider{border-width:2px 1px;border-style:solid;border-color:#666}
+.bibItemsHeader th,.bibItemsHeader td{font-size:.95em}
+.bibItemsHeader td{font-weight:bold;color:#036}
+.bibOrder,.bibItems{padding:0;border-collapse:collapse;border:1px solid #ccc;*border:none}
+#bibDisplayBody .bibOrder,#bibDisplayBody .bibItems{width:90%;*background:#ccc;margin:15px 0 10px 15px}
+#bibDisplayContent .bibItems tr{padding:0}
+#bibDisplayBody .bibOrder td,#bibDisplayBody .bibOrder th,#bibDisplayContent .bibItems td,#bibDisplayContent .bibItems th{background:#fff;*border:none;font-size:1em;padding:6px 12px}
+#bibDisplayContent .bibItems th{padding-left:15px;background:#D8E8F1;text-transform:lowercase}
+
+/* the rest of the record */
+#bibDisplayContentMore{padding:10px}
+#bibDisplayContentMore .bibInfoLabel,#bibDisplayContentMore .bibInfoData{font-size:.95em}
+#bibDisplayContentMore .bibInfoLabel{width:140px}
+#bibDisplayContentMore #isbnRow .bibInfoData{font-weight:bold}
+.catalog_layout .ui-tabs-panel{border:1px solid #ddd;-moz-border-radius:3px;border-radius:3px 3px 3px 3px;-webkit-border-radius:3px 3px 3px 3px;background:#fff;float:none;width:90%;z-index:1;margin:0;min-height:145px;padding: 15px 0 0 10px;box-shadow:0 0 9px #ddd;-moz-box-shadow:0 0 9px #ddd;-webkit-box-shadow:0 0 9px #ddd}
+#container-tabs #top-tabs-menu,.catalog_layout #top-tabs-menu{display:block;padding-left:10px}
+#top-tabs-menu li{margin:0;*margin-bottom:-1px;background-image:none;height:27px;}
+#top-tabs-menu.ui-tabs-nav li a{-moz-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;-webkit-border-radius:3px 3px 0 0;border-left:1px solid #ccc;border-right:1px solid #ccc;border-top:1px solid #ccc;padding:5px 11px 1px;display:block;margin-bottom:4px;background-image:none;background:#67613D;position:relative;text-decoration:none;color: #fff;box-shadow: 0 -2px 7px #dedede;-moz-box-shadow: 0 -2px 7px #dedede;-webkit-box-shadow: 0 -2px 7px #dedede;}
+#top-tabs-menu.ui-tabs-nav li a span{display:inline;padding:0;margin:0;background-image:none}
+#top-tabs-menu.ui-tabs-nav li.ui-tabs-selected a{border-bottom:none;color:#333;z-index:10;padding: 6px 11px 0;display:block;margin-bottom:-3px;background-color:#fff}
+.indent_para{padding-left:25px}
+.indent_para #sdCircuitlink{float:none;font-weight:bold;display:inline-block;width:auto;text-decoration:underline;padding-right:43px;background:url(/images/catalog/circuit.png) 100% 50% no-repeat}
+
+/* record-level hidden elements */
+#bibDisplayBody .bibSearchtoolMessage,#titleholder .bibInfoLabel,#bibDisplayBody h4.bareBreaker,#top-tabs-menu{display:none}
+
+/* #bibRight */
+#bibRight h4{margin:1px;font-weight:normal;font-size:1.25em;padding:11px 5px 6px 40px;background:#3F7281;color:#333}
+
+/* bib-level toolbox */
+#toolboxholder{border:1px solid #ddd;margin:0 0 10px;padding:0;-moz-border-radius:3px;border-radius:3px 3px 3px 3px;-webkit-border-radius:3px 3px 3px 3px;box-shadow:0 0 9px #ddd;-moz-box-shadow:0 0 9px #ddd;-webkit-box-shadow:0 0 9px #ddd}
+#toolboxholder h4{background:url(/images/catalog/tools.png) 10px 60% no-repeat #CDDCFE;color:#333}
+.tools_row{clear:both;padding:8px 5px;height:35px}
+
+/* AddThis */
+.addthis_toolbox{width:230px;float:none;padding:0}
+.addthis_toolbox a{padding:4px 4px 0;position:relative;display:block;float:left;clear:right;cursor:pointer;text-decoration:none;color:blue}
+.addthis_toolbox a:hover{text-decoration:none}
+.addthis_toolbox .more{float:right;margin:-45px 20px 0 0}
+.addthis_toolbox .more span{position:absolute;left:5px}
+.addthis_toolbox .more a{float:left;margin:5px 0 0 15px;padding-left:25px;margin-left:15px;text-decoration:none}
+.addthis_toolbox .custom_images,.addthis_button_email{text-decoration:none}
+.addthis_button_email,.addthis_button_print{margin:1px 6px 0 0;height:30px;padding-top:2px;padding-left:36px}
+.addthis_toolbox .custom_images a:hover img{vertical-align:top;margin-right:4px;-moz-opacity:0.6;-khtml-opacity:0.6;opacity:.6}
+.addthis_toolbox .custom_images a:hover{padding:3px 3px 0;border:1px solid #aaa;background:#f8f8f8}
+.addthis_toolbox .custom_images a img{margin-right:4px;float:left;vertical-align:top}
+.addthis_toolbox .citationholder a{background:url(/images/catalog/cite.png) 2px 4px no-repeat transparent;display:block;height:19px;margin-left:3px;padding:6px 6px 10px 30px}
+.addthis_toolbox .citationholder a:hover{background:url(/images/catalog/cite.png) 1px 3px no-repeat #f8f8f8;border:1px solid #666;margin-left:3px;padding:5px 5px 9px 29px;filter:alpha(opacity=60);-moz-opacity:0.6;-khtml-opacity:0.6;opacity:.6}
+.addthis_toolbox .more a:hover{padding-left:25px}
+.citationholder{display:inline}
+
+/* Subjects list in right column */
+#bibRight #rightSubjectsHolder{padding:0 0 10px;border:1px solid #ccc;-moz-border-radius:5px;border-radius:5px}
+#rightSubjectsHolder h4{background:url(/images/catalog/subjects.png) 10px 80% no-repeat #FCE06D /*#489197 #3F7281*/;padding-left:40px}
+#bibRight #rightSubjectsHolder a,#bibRight #rightSubjectsHolder font{color:#06C}
+#bibRight #rightSubjectsHolder font strong{font-weight:normal;font-size:1em}
+#bibRight .bibInfoLabel{width:1px;font-size:0px;color:#fff}
+
+/* Advanced Search */
+.srchhelpText{padding:0}
+.srchhelpHeader{font-size:1.5em}
+.advSrchtool{padding:0;border:none;margin:20px 0 10px;background:transparent}
+.advSrchtool form#search,#limit-search-box-wrapper{border:1px solid #ddd;padding:20px 10px;font-style:normal;width:890px;min-height:195px;background:#f2f2f2;margin:0;box-shadow:0 0 9px #ddd;-moz-box-shadow:0 0 9px #ddd;-webkit-box-shadow:0 0 9px #ddd;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px}
+.advSrchtool form#search select{margin:-2px 5px 7px 5px;*font-size:.95em!important;font-size:.9em!important}
+.advSrchtool form#search #extraoptions{position:absolute;top:150px;*top:180px;border:1px solid #ddd;padding:15px;background:#fafafa;left:545px;*535px}
+.advSrchtool form#search #extraoptions label{display:inline}
+.advSrchtool form#search #extraoptions td{vertical-align:top}
+.advSrchtool form#search #extraoptions fieldset{border:medium none;margin:-6px 0 0 10px;*margin-top:0px;padding:0}
+.advSrchtool form#search #extraoptions label[for=D]{margin-top:6px}
+.advSrchtool form#search #extraoptions input[name="Da"],.advSrchtool form#search #extraoptions input[name="Db"]{width:80px;margin:1px 3px 3px 3px}
+.advSrchtool form#search #extraoptions input[name="p"]{width:170px}
+.advSrchtool form#search input[name="searchText1"],.advSrchtool form#search input[name="searchText2"],
+.advSrchtool form#search input[name="searchText3"],
+.advSrchtool form#search input[name="searchText4"]{
+margin:3px 7px;*margin:9px 7px 0;padding:4px;width:240px}
+.advSrchtool form#search select[name="SORT"]{margin-top:22px}
+.advSrchtool form#search table select{margin-top:-6px 0 9px;*margin-top:0;padding:4px 3px;font-size:.9em}
+.advSrchtool form#search input[name="availlim"]{margin:20px 0 10px 5px;float:left}
+.advSrchtool form#search .lim2Avail{width:790px;padding:20px 10px 0;float:left}
+.magFive a{border-radius: 5px 5px 5px 5px!important;-moz-border-radius: 5px 5px 5px 5px!important;-webkit-border-radius: 5px 5px 5px 5px!important;padding:7px 10px}
+.magFive.reset{position:absolute;left:375px;top:330px;width:150px;*top:350px}
+.magFive.reset a{background-image:none;color:#fff;background-color:#888}
+.magFive.submit{position:absolute;left:300px;top:330px;*top:350px}
+.searchTipTable{border:1px solid #ccc;background:#f9f9f9;padding:15px;margin-left:3%;margin-top:20px;*margin-top:40px;max-width:800px;*width:800px}
+.searchTipTable th,.searchTipTable td{border:none;padding:10px 10px 25px;text-align:left}
+.searchTipTable th{background:#fff;border-right:1px solid #ccc}
+.searchTipTable td strong{position:absolute;margin-bottom:-30px;*margin-bottom:0;margin-left:-10px;*margin-top:-35px}
+.advSrchtool form#search label,.advSrchtool form#search table,.advSrchtool form#search #extraoptions legend{display:none;margin:0;padding:0}
+
+/* Export Page */
+.library_catalog #page-content-main-inner.export_page a #prevScreen,
+a #Ret2Browse{padding-left:34px;background:url(/images/catalog/sub_blue_prev.png) 7px 35% no-repeat}
+.library_catalog #page-content-main-inner.export_page h2{clear:both;font-size:1.5em;padding-top:25px}
+.library_catalog #page-content-main-inner.export_page center{width:880px;margin:0 auto;text-align:left}
+.library_catalog #page-content-main-inner.export_page table{text-align:left;width:auto;border:none}
+.library_catalog #page-content-main-inner.export_page table.browseScreen{background:#fff;width:600px;margin:0px;padding:0}
+.library_catalog #page-content-main-inner.export_page table.browseList{width:750px}
+.library_catalog #page-content-main-inner.export_page table th{padding:15px 5px 2px;border:none;width:auto;background:#06c;color:#fff;margin:0;text-align:left}
+.library_catalog #page-content-main-inner.export_page table td{
+width:auto;border:none;margin:0;vertical-align:top;text-align:left}
+.library_catalog #page-content-main-inner.export_page table td.emailer{
+padding:5px 5px 5px 111px;vertical-align:top;background:url(/images/catalog/email_send.png) 7px 10px no-repeat;border:1px solid #ccc}
+.library_catalog #page-content-main-inner.export_page table td.emailer input[type="radio"]{margin-left:-42px}
+input[name="email_addx"],input[name="email_subj"]{margin-left:10px;margin-bottom:6px;*margin-bottom:-4px;width:180px}
+.library_catalog #page-content-main-inner.export_page table td.printer{padding:9px 5px 5px 75px;height:42px;*height:30px;background:url(/images/catalog/print.png) 23px 9px no-repeat;border:1px solid #ccc}
+.library_catalog #page-content-main-inner.export_page table td.downloader{padding:9px 5px 5px 75px;height:42px;*height:30px;background:url(/images/catalog/save.png) 23px 9px no-repeat;border:1px solid #ccc}
+.library_catalog #page-content-main-inner.export_page table td.printer input[type="radio"],
+.library_catalog #page-content-main-inner.export_page table td.downloader input[type="radio"]{margin:4px 4px 0px -4px}
+.library_catalog #page-content-main-inner.export_page table td .deleteSelected{margin-left:-1px}
+.library_catalog #page-content-main-inner.export_page table td .deleteSelected a{float:left;display:block;margin:3px 18px 3px 0;padding:1px 4px}
+.library_catalog #page-content-main-inner.export_page .browseScreen table td.browseHeaderData,
+.library_catalog #page-content-main-inner.export_page table td.browseHeaderYear{display:table-cell;text-align:left;color:#565656;text-transform:lowercase}
+
+/* Export list */
+.exportHeading{width:610px;padding-top:15px;border-top:1px dotted #ccc}
+#export_display{margin:1%;background-color:#fff}
+#export_display #site-navi,#export_display #google,#export_display .bibNavRow,#export_display #bibLeft{float:left;margin-left:-100%;width:150px;padding-top:40px}
+#export_display #bibCentral{width:490px;padding:0px 0px 20px 10px;margin:-20px 0px 10px 150px}
+#export_display #marclink,#export_display #bibRight{display:none}
+
+/* Marc Display */
+#marc_display #website-feedback{display:none}
+#marc_display,#marc_display div{min-width:400px;max-width:none;width:auto;padding:0;margin:0}
+#marc_display #page-content-main,#marc_display #page-content-main-inner{background-image:none;border:none}
+#marc_display pre{font-size:1.2em;*font-size:1.1em;margin-top:-18px;*margin-top:0px}
+
+/* User Account */
+#patronaccount_home{margin-top:-30px}
+h1.login-page-title{
+margin:-25px 0 10px;padding:15px 0 10px 25px;z-index:50}
+#csusm_login_form .webform-component-fieldset legend a,
+#ill_login_form .webform-component-fieldset legend a,
+#external_auth_form .webform-component-fieldset legend a{
+background:url(/images/bg.gif) repeat-x scroll 0 98% #F3F3F3;border:1px solid #ccc;padding:12px 15px 6px;width:100%;min-width:220px}
+#ill_login_form .webform-component-fieldset legend a{min-width:160px}
+#csusm_login_form .webform-component-fieldset legend,
+#ill_login_form .webform-component-fieldset legend,
+#external_auth_form .webform-component-fieldset legend{
+border:none;width:100%;background:none}
+#csusm_login_form,#external_auth_form{width:250px;margin-left:5px}
+#csusm_login_form{float:left}
+#ill_login_form{width:200px}
+#csusm_login_form .webform-component-fieldset,#external_auth_form .webform-component-fieldset{width:auto}
+#csusm_login_form .fieldset-wrapper,#ill_login_form .fieldset-wrapper,#external_auth_form .fieldset-wrapper{width:100%}
+#csusm_login_form #btnLogin{display:block;margin:20px 0 10px 3px}
+#edit-name-wrapper,#edit-pass-wrapper{}
+.library_catalog .webform-component-fieldset .form-item{clear:both;padding:0 0 12px;min-height:25px}
+#external_auth_form #edit-name-wrapper label{display:inline}
+#external_auth_form #edit-name-wrapper .form-required{}
+#external_auth_form #edit-name-wrapper #name{clear:both;display:block}
+#ill_login_form{float:left;margin:0 0 0 75px;height:210px}
+#loggedinmsg{position:absolute;font-weight:bold;color:#464646;top:-4px;padding:10px 12px 5px 12px;right:30px}
+.locationmsg{display:none}
+.patNameAddress{border:none}
+.patNameAddress br{height:1px}
+.ill-login-link{float:right;margin-top:-40px 65px 0 0 }
+table.patFunc{border-collapse:collapse;border:0px none #fff;margin:8px 0 20px;background:#fff;border-spacing:0px}
+.patFuncArea tr{}
+.help-links{float:right;padding:0 5px}
+.patFuncArea th,.patFuncArea td{padding:7px 3px;border-bottom:1px solid #ccc;border-top:none;border-right:none}
+.patFuncArea th{text-transform:lowercase;border-top:1px solid #ccc;color:#555}
+.patFuncArea th.patFuncTitle{border:none;font-size:1.1em}
+.patFuncArea{border:0px none #fff}
+.patActionsLinks{text-align:left;padding:0 0 10px 5px}
+.patFuncArea input[type="submit"]{font-size:12px;text-transform:lowercase;margin:0 8px 8px 0}
+
+/*Periodical forms on bib record */
+#bibDisplayBody #holdings input[name="volume"]{float:right}
+#bibDisplayBody #holdings form{margin-top:25px}
+#bibDisplayBody #holdings input[type="submit"]{float:right;border:none;color:#333;padding:5px 0px 0px 26px;width:450px;white-space:normal;background:url(/images/catalog/search.png) 0px 50% no-repeat #fff;text-align:left;border:none}
+#info, #sms{border:1px solid #36647b;position:absolute;top:250;left:50;z-index:1000;background:#fff;padding:10px;margin:10px;background:#efefcf}
+#sms .eg{font-style:italic;font-size:80%}
+#info{top:500}
+#sms{font-size:70%}
+
+/* Course Reserves */
+a #Ret2Browse{color:#444}
+#site-navi a #Ret2Browse,.navigationRow a #Ret2Browse{color:#fff}
+.resourcePager{text-align:right}
+.bibDetail{float:left;border:1px solid #ccc;width:600px;border-collapse:collapse;margin:10px 0}
+#bibCentral .bibDetail,#bibLeft .bibDetail,#bibRight .bibDetail{float:none;border:none;width:auto;border-collapse:collapse;margin:0}
+.reserveBibs{border:none;border-collapse:collapse}
+.reserveBibs td input{text-decoration:underline;color:#036;border-top:none;border-bottom:1px solid #aaa;border-left:none;border-right:none;background-image:none;padding:0}
+.reserveBibs td b{font-size:1.2em}
+.reserveBibs td{border:1px solid #ccc;padding:4px 10px}
+
+/* Item requests */
+#patform .loginarea{width:auto}
+#patform font em{font-style:normal;color:#930;font-weight:bold;font-size:14px}
+#extpat,#libpat{padding:10px;border:1px solid #ccc;-moz-border-radius:7px;border-radius:7px;width:310px;height:120px;margin:0 5px 0 0}
+#extpat br,#libpat br{clear:both;height:1px}
+#extpat strong,#libpat strong{clear:both;display:block}
+#extpatidprompt,#extpatpwprompt{font-size:.9em;float:left;min-width:125px;height:30px}
+#libpat label{font-size:.9em;float:left;min-width:90px;height:30px}
+#extpatid,#extpatpw,#libpat input{float:left;font-size:.9em}
+.patFuncPickupLabel,#locx00,#patform .formButtonArea{margin:6px 0 0 20px;font-size:.9em;display:block}
+.patFuncPickupLabel{margin-top:20px;font-size:1.15em;font-weight:bold}
+.formButtonArea a{border-radius:4px;outline-radius:4px;-moz-border-radius:4px;-moz-outline-radius:4px;background:url("https://biblio.csusm.edu/sites/all/images/buttons/blue-button.png") no-repeat scroll center top transparent;border:1px solid #FFFFFF;color:#FFFFFF;cursor:pointer;font-size:1.1em;outline:1px solid #9BABB0;padding:4px 8px;text-transform:capitalize;text-decoration:none}
+
+/* No Entries Found */
+.no-entries .alert-msg h2{font-weight:bold;margin:0;padding:25px 0 0 0}
+.no-entries .alert-msg br{display:none}
+.no-entries #container-tabs{width:550px}
+.no-entries #container-tabs #top-tabs-menu{padding-left:10px}
+.no-entries #container-tabs form{margin:0 0 20px}
+.no-entries .catalog_layout .ui-tabs-panel{
+min-height:85px;padding-left:10px;padding-top:5px}
+cougar_cat.css (line 1193)
+.no-entries .ui-tabs-panel{padding:5px 8px 20px 0;z-index:5}
+.no-entries #worldcatAdvancedMore{margin:0 25px 0 0}
+#search_tips_table{width:660px}
+#search_tips_table th{font-size:1.15em}
+#search_tips_table td{font-size:1.1em;padding:10px 20px}
+#search_tips_table .tip_feature{font-weight:bold;color:#333;font-size:1.3em}
+#search_tips_table .example{display:block;background:#F5F7DB;border:1px dotted #bbb;padding:10px;m}
+
+/* Limit/Sort Search - srchmod.html */
+#limit-search-layout h1.page-title{margin:15px 0 10px}
+#limit-search-layout .navigationRow{clear:none;height:auto;margin:-50px 0 0 220px;max-width:none;min-width:10px;padding:0}
+#limit-search-layout h2.srchhelpHeader{clear:both;display:block;float:none;margin:20px 0 0 !important;padding:30px 0 10px 0;width:100%}
+#limit-search-layout .navigationRow a{background-image:none!important}
+#limit-search-layout a #newSearch{padding:0 0 0 37px;border:none;width:0px;overflow:hidden}
+#limit-search-box-wrapper{width:500px;margin:20px 0} /* see above around line 260 as well */
+.limit-search-buttons{margin:20px 0 10px}
+.limit-search-buttons .cancel-button a{background-image:none;background-color:#b32}
+.srchhelpText{font-size:1.15em}
+.searchterm{font-weight:bold}
+#limit-search-layout #sortdropdown{font-size:.9em}
