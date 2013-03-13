@@ -42,6 +42,12 @@ background: url(/images/bg.gif) 0px 100% repeat-x #fff;
 padding: 13px;font-size:1.1em;margin:15px 20px 10px 10px;position: relative;
 border-top: 1px solid #ccc;border-left: 1px solid #ccc;border-right: 1px solid #ccc;border-bottom: 1px solid #999;}
 .library_catalog fieldset{width: 86%;}
+#adv_catalog_search #create-search {
+  padding-top: 6px
+}
+#adv_catalog_search #create-search legend{
+  display: none
+}
 .library_catalog .form-line-item{}
 .library_catalog .search_input{
 width: 40%;min-width:200px;max-width: 450px;padding: 4px 1px 3px 1px;}
@@ -153,9 +159,9 @@ h4#perm-reserves-link{margin:-15px 10px 0 0;padding:0;*font-size:.9em;}
 #lightbox-nav-btnNext { right: 0; float: right;}
 #lightbox-container-image-data-box {background-color: #ffc;margin: 0 auto;line-height: 1.4em;overflow: auto;width: 100%;padding: 0 10px 0;}
 #lightbox-container-image-data {padding: 0 10px; color: #666; }
-#lightbox-container-image-data #lightbox-image-details { width: 70%; float: left; text-align: left; }	
+#lightbox-container-image-data #lightbox-image-details { width: 70%; float: left; text-align: left; }
 #lightbox-image-details-caption { font-weight: bold; font-size: 1.5em;padding:20px 0px;display: block;}
-#lightbox-image-details-currentNumber {display: block; clear: left; padding-bottom: 1.0em;	}			
+#lightbox-image-details-currentNumber {display: block; clear: left; padding-bottom: 1.0em;	}
 #lightbox-secNav-btnClose {width: 66px; padding: 6px 10px 5px 10px;background: #fff;float: right;}
 .lightbox img {border: 3px solid #696;}
 #right-sidebar-holder .jquery-media{margin-left:5px;}
@@ -166,7 +172,7 @@ h4#perm-reserves-link{margin:-15px 10px 0 0;padding:0;*font-size:.9em;}
 .standard-data .todaysHours td{font-weight: bold;color: #030;border-top: 2px dotted #777;border-bottom: 2px dotted #930;}
 .semi-bold{color: #666;}
 .to-page-top {text-align: right;margin:0;}
-#tooltip{position:absolute;border:1px dotted #888;width: 155px;background:#ffd;padding: 9px;color:#333;z-index:1000;display:none;}	
+#tooltip{position:absolute;border:1px dotted #888;width: 155px;background:#ffd;padding: 9px;color:#333;z-index:1000;display:none;}
 #sort_cell{display: block;position: absolute;*margin-top:32px;z-index:100;width: 250px;*left:3%;}
 #sort_cell #sortdropdown{margin-top:2px;}
 
