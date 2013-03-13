@@ -1,0 +1,145 @@
+body{
+  color: #333333;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+form{margin: 0px;padding: 0px;}
+.user-info-form{padding-top: 0px;}
+#formfields-container{}
+.email-form h3{display: none;}
+.form-actions{font-weight: bold;color: #67613D;display: block;padding-top:6px;}
+.chat-buttons{margin-top:10px;}
+#fastpath-header-image{display: none;}
+.formtext,.form-item,.form-actions{padding:5px 5px 5px 10px;}
+.formtext label,.form-item label{display:block;float:left;}
+.welcome-text {margin: 0px;padding: 0px;}
+.welcome-text p{padding: 0px;margin: 0px;}
+
+#chat-wrapper #welcome{font-size: 10.998px;margin:-8px 0 5px 7px;background-color: #468847;float:right;padding:7px 7px 3px;-webkit-border-radius: 0 0 5px 5px;-moz-border-radius: 0 0 5px 5px ;border-radius:0 0 5px 5px;font-weight: bold;line-height: 14px;color: white;text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);white-space: nowrap;vertical-align: baseline}
+#chat-wrapper #content{ background:transparent;}
+.required,.form-required{color: #B94A48;}
+.form-field-holder input{width: 95%;}
+
+label, input, button, select, textarea {font-size: 13px;font-weight: normal;line-height: 18px;}
+label {margin:4px 0 0;}
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+  border-color: rgba(82, 168, 236, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+  outline: 0 none;
+  background-image:none;
+}
+textarea{width: 98%;height:34px;}
+select{border: 1px solid #BBBBBB;}
+
+.btn,.form-submit{
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F5F5F5;
+    background-image: -moz-linear-gradient(center top , #FFFFFF, #E6E6E6);
+    background-repeat: repeat-x;
+    border-color: #E6E6E6 #E6E6E6 #B3B3B3;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 0;
+    padding: 4px 10px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+.btn,.form-submit{border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);}
+.btn:hover, .btn:active, .btn.active, .btn.disabled, .btn[disabled],
+.form-submit:hover, .form-submit:active, .form-submit.active, .form-submit.disabled, .form-submit[disabled]{
+  background-color: #E6E6E6;
+}
+.btn:hover.form-submit:hover{-moz-transition: background-position 0.1s linear 0s;background-color: #E6E6E6;background-position: 0 -15px;color: #333333;text-decoration: none;}
+.btn:focus,.form-submit:focus{outline: thin dotted #333333;outline-offset: -2px;}
+.btn.active, .btn:active,
+.form-submit.active, .form-submit:active{background-color: #E6E6E6;background-image: none;box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.05);outline: 0 none;}
+
+input, button, select, textarea{font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
+.chat_table img{display:none;}
+
+.page-webforms-dept-contact-form .content p{margin:0;padding:0;font-weight:normal;}
+
+/* new webchat mods */
+#email-frame{height:470px;width:230px;}
+body.spc-chat-widget,.page-webforms-contact-form{background-image:none;}
+body.spc-chat-widget #chat-wrapper,
+.page-webforms-contact-form #chat-wrapper,
+.page-webforms-dept-contact-form #chat-wrapper{max-width:370px !important;padding:5px 10px;}
+.spc-chat-widget .formtext{padding:0}
+.spc-chat-widget .form-field{clear: both;display: block;}
+
+/* new email form */
+#email-wrapper{}
+#email-wrapper #welcome{
+  position: relative;
+  padding:8px 8px 5px;
+background-color: whiteSmoke;
+background-image: -ms-linear-gradient(top, white, #E6E6E6);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#E6E6E6));
+background-image: -webkit-linear-gradient(top, white, #E6E6E6);
+background-image: -o-linear-gradient(top, white, #E6E6E6);
+background-image: linear-gradient(top, white, #E6E6E6);
+background-image: -moz-linear-gradient(top, white, #E6E6E6);
+background-repeat: repeat-x;
+  border: 1px solid #D5D5D5;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;}
+#email-wrapper #content{
+  background:#f7f7f7;
+  padding:5px 2px 8px;
+  border: none;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+#email-wrapper .formtext, #email-wrapper .form-item, #email-wrapper .form-actions {padding: 4px 0 0;}
+#email-wrapper .form-actions{padding:0;}
+#sidebar-left{margin:0;padding:1px;}
+.page-webforms-contact-form #content{margin:0;padding:3px 3px 6px 3px;background: #f6f6f6}
+.page-webforms-contact-form .formtext, .page-webforms-contact-form .form-item, .page-webforms-contact-form .form-actions {padding:4px 6px;}
+.page-webforms-contact-form label{margin:0;}
+.page-webforms-contact-form .groups,.page-webforms-dept-contact-form .groups,
+.page-webforms-contact-form .links,.page-webforms-dept-contact-form .links{display: none}
+.page-webforms-contact-form .form-item label,
+.page-webforms-dept-contact-form label{float:none;}
+.page-webforms-contact-form #webform-component-librarian,
+.page-webforms-dept-contact-form #webform-component-dept{display: none}
+#edit-captcha-response-wrapper .description{font-size: 11px;font-weight: normal;display: none}
+#email-wrapper .btn,#email-wrapper .form-submit{
+  margin-top:9px;
+  color:#fff;
+background-color: #5BB75B;
+background-image: -ms-linear-gradient(top, #62C462, #51A351);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62C462), to(#51A351));
+background-image: -webkit-linear-gradient(top, #62C462, #51A351);
+background-image: -o-linear-gradient(top, #62C462, #51A351);
+background-image: -moz-linear-gradient(top, #62C462, #51A351);
+background-image: linear-gradient(top, #62C462, #51A351);
+background-repeat: repeat-x;
+border-color: #51A351 #51A351 #387038;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+filter: progid:dximagetransform.microsoft.gradient(startColorstr='#62c462', endColorstr='#51a351', GradientType=0);
+filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+}
+
+#presence{float:right}

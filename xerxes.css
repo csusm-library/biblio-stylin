@@ -1,0 +1,87 @@
+body{background:#F3F3F3}
+#doc3{margin:auto}
+#hd{width:100%;margin:0;padding:0}
+#breadcrumb{background:#F3F3F3;color:#666;margin:10px auto 0;padding:0 20px;max-width:1100px;min-width:910px}
+#doc3 #bd{background:#fff;border:1px solid #ddd;box-shadow:0 0 6px #ccc;-moz-box-shadow:0 0 6px #ccc;-webkit-box-shadow:0 0 6px #ccc;min-height:550px;margin:10px auto;max-width:1140px;min-height:450px;min-width:860px;padding:20px;position:relative;z-index:1;}
+.yui-b .tabs #tabnav,#tab-solr{}
+.yui-ge .yui-u.first{width:71%}
+.yui-g .yui-u.first{width:40%}
+
+#bd-top .yui-u.first{width:100%;border-bottom: 1px solid #DEDEDE;margin: -20px -20px 0;background: #F2F2F2;padding: 7px 0 4px;}
+.trail{margin-left: 25px;padding: 0;}
+.account{padding-top:20px;}
+
+/* search form */
+.submit-searchbox_,.submit_searchbox_{background:#4682C3;border:1px solid #fff;color:#fff;cursor:pointer;font-size:96%;font-weight:bold;margin:0 4px;padding:4px 11px!important;text-transform:capitalize;border-radius:11px 11px 11px 11px;-moz-border-radius:11px 11px 11px 11px;-webkit-border-radius:11px 11px 11px 11px}
+.submit-searchbox_:hover,.submit_searchbox_:hover{background:#2b94cb}
+.search-inputs select#field,.search-inputs input#query,.searchInputs select#field,.searchInputs input#query{padding:2px;font:1.1em Arial,Helvetica,sans-serif;border-top:1px solid #7c7c7c;border-left:1px solid #c3c3c3;border-right:1px solid #c3c3c3;border-bottom:1px solid #ddd;background:#fff url(/images/spriteme1.png) repeat-x 0px -170px}
+.search-inputs select#field,.searchInputs select#field{font-size:1.1em!important}
+.search-label {float: left;padding-top:6px;}
+.search-label label,.search-inputs label,.searchInputs label{padding:5px;vertical-align:baseline;font-size:1.1em;white-space:normal}
+.search-box,.searchBox{margin:9px 2px 25px;width:600px;display:block}
+.raised-box,.raisedBox.searchBox{border:1px solid #cdcdcd;box-shadow: 0 0 9px #eee;-webkit-box-shadow: 0 0 9px #eee;-moz-box-shadow: 0 0 9px #eee;border-radius: 2px;-webkit-border-radius: 2px;-moz-border-radius: 2px;}
+.raisedBox.searchBox{background: url(/images/sprite-main1.png?123456) repeat-x scroll 0 53px white;padding-bottom:6px}
+.search-inputs #query,.searchInputs #query{width:300px;padding:3px!important}
+#worldcatAdvancedMore {margin-top:0;text-align:right;margin-right:60px}
+.searchLabel {float: left;padding-top: .6em;}
+#tabnav,#tabnav li,#tabnav a{background-image:none!important;}
+#tabnav{border-bottom:1px solid #ccc}
+#tabnav a{background:#eee;border-top:1px solid #ccc;border-left:1px solid #ccc;border-right:1px solid #ccc;border-radius:5px 5px 0 0;-moz-border-radius:5px 5px 0 0;-webkit-border-radius:5px 5px 0 0;padding:8px 14px 6px!important;margin:1px 0 0}
+#tabnav .here a{background:#fff;padding:9px 14px 7px!important}
+#tabnav li.here a{margin:1px 0 -1px}
+.tabs #sort{margin-bottom:0}
+.results-facets-applied{margin:1.6em 0;position:relative;clear:both;float:left;width:99%}
+.results-facets-applied ul{padding:0}
+.results-facets-applied li {
+position: relative;
+padding: 10px 35px 10px 10px;
+float: left;}
+.yui-u.first #results{padding:25px;clear:both}
+.result{padding:0 0 1em}
+.yui-b .sidebar{background: #fff;border:1px solid #ccc;box-shadow:0 0 9px #ddd;-webkit-box-shadow:0 0 9px #ddd;-moz-box-shadow:0 0 9px #ddd;}
+#search-sidebar{border:none;box-shadow:none;-webkit-box-shadow:none #ddd;-moz-box-shadow:none;}
+.holdingsTable{margin:10px 0!important}
+.worldcatResult .resultsType{color:#666}
+.worldcatResult .resultsInfo{margin-top:0}
+.resultsAvailability{display:block;margin:6px 0}
+#results .resultsInfo img{vertical-align:top}
+.results-type img{vertical-align:top;}
+
+#recordFullText{background:none!important}
+#search-sidebar.right{padding:0}
+
+/* Facets */
+ #form-facet-4 label,.controller-books #form-facet-2 label{float:left;width:45px}
+#facet-date-start{margin-bottom:6px;}
+#form-facet-4 input[type=submit],.controller-books #form-facet-4 input[type=submit]{float: right;margin-top: -22px;margin-right: 56px;padding:2px 6px;}
+.sidebar .box li {list-style: none;}
+
+/* record level */
+.controller-books.action-record h1{margin: 0 20px 10px 0;font-size:1.5em;}
+#record-full-text{margin-left:49px;max-width:550px;width:auto;float:left;margin-top:1em;padding:1em 2em}
+#record h2 {clear:both}
+#recommendations .results-info{padding:0;margin:0;border:none}
+#recommendations .results-info .results-type{color:#777}
+#recommendations .record-action{float:none}
+.action-record .sidebar h2{}
+.action-record .sidebar .box{margin:0 0 20px}
+#worldcatRecordBookCover{position: absolute;}
+#worldcatRecord{float:left;clear:both;min-height: 170px;}
+#worldcatRecord div{float:left;margin:6px 12px}
+.worldcatAvailableRecord {overflow-y: auto;}
+#recordFullText{float:none;clear:both}
+#bd dt,#bd dd{margin:0;float:none;display:inline}
+
+/* footer */
+#ft{background:#4F4B4B}
+#ft:after{height:auto}
+#library_footer_wrapper{height:auto}
+
+/* vertical tab tweaks */
+ul {padding-left: 0;}
+
+/* User account */
+
+
+/* Worldcat */
+.controller-worldcat.action-results #sort{margin-left:0;padding-left:0;}

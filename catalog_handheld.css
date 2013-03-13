@@ -1,0 +1,439 @@
+body{font: 95% Arial, Helvetica, sans-serif;}
+#library-header-wrapper,#site-title-wrapper,.catalog_layout h1.page-title,#library-nav-footer,#site-navi,#footer_csu,#footer_address,#loggedinmsg{display:none;}
+#page-content-main-inner{background-image: none;background-color:transparent;border:none;margin:0;min-height: 30px;padding:0;z-index:1;}
+#patronaccount_home h1.page-title{display: block;font-size: 1.25em;background-color:#fff;}
+.handheld-only{display:block;}
+
+/* User Account */
+#csusm_login_form,#ill_login_form,#external_auth_form{width:200px;float:none;margin:0;height:auto;width:200px;}
+.webform-component-fieldset{width:auto;float: none}
+#csusm_login_form legend a{width:auto;}
+#csusm_login_form .fieldset-wrapper,#ill_login_form .fieldset-wrapper,#external_auth_form .fieldset-wrapper{width:auto;}
+#ill_login_form legend a{width:auto;}
+#loggedinmsg{position: absolute;font-weight: bold;color:#464646;top: 2px;padding: 5px 0;right:0px;}
+#website-feedback{display:none;}
+body {
+  font-family:Helvetica, Arial, Verdana, sans-serif;
+	}
+
+/* "Linearize" all tables: */
+table, tbody, tr, td, th { 
+	display: block;
+	}
+
+/* All purpose class for mobile display only HTML: */ 
+div.mobileOnly {display:block}
+
+/* LC: reset font properties for anything that's explicitly set in main style sheet: */
+.bibTitle td.bibInfoLabel , .bibTitle td.bibInfoData , #search table tbody tr td.limit , #search td , .errormessage , .limitMessageLaf , .limitTableHeaderLaf , .limitColALaf , .limitColBLaf , .limitColCLaf , .bibRecordLink , .authMsg , td.bibResourceTableEntry , td.browsePager , table.browseList , tr.browseHeader , td.browseSubEntryData , div.bibSearchtool , table.browseScreen div.bibSearchtool , div.browseSearchtool , .bibPager , div.bibPager div , td.bibInfoLabel , td.bibInfoData , table.reserveBibs td , table.bibLinks th , table.bibLinks td , td.bibHoldingsLabel , td.bibHoldingsEntry , .checkinInfoLabel,.checkinInfoData,.checkinInfoHoldingsLabel,.checkinInfoHoldingsData , div.checkinCard td , th.bibItemsHeader , tr.bibItemsEntry td , table.bibTOC th , table.bibTOC td , table.bibTOC strong , .patFuncRenewCount , td.patFuncStatus font , td.patFuncStatus em , .homelink , .button , .pagetopContent , body , #bibHoldingsM , #bibToCM  , div.errorMsg , #renewfailmsg , #courseMaterialsM {
+	font-size: 100%;
+	font-weight: normal;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	}
+
+/* LC: hide regular toplogo */
+div.homelink , .pagetopContent {display:none;}
+
+/* LC: show mobile toplogo*/	
+.pagetopContentM {
+	display: block;
+	padding:.5em 1em;
+	background-color: #283fa0;
+	font-size:100%;
+	color:white;
+	}
+.pagetopContentM a {color:#fff;text-decoration:none;}
+
+/*  ######
+ >>> Search Results Displays
+ ###### */
+
+ 
+/* ### Record browse ### */
+/* Some class names are LC-specific:
+  LC uses briefCite; example sets use briefcit. */
+tr.briefCiteRow {display:none;}
+table.browseList {
+	max-width: 100%;
+	border: none;
+	}
+tr.briefCiteM {display:table-row}
+td.briefCiteM {
+	margin-top:.5em;
+	}
+.odd div , tr.odd td {
+	background-color:#eee;
+	}
+tr.browseSuperEntry td , .browseSuperEntry.browseEntryRelGroup1 td , .browseSuperEntry.browseEntryRelGroup2 td , .browseSuperEntry.browseEntryRelGroup3 td , .browseSuperEntry.browseEntryRelGroup4 td , .browseSuperEntry.browseEntryRelGroup5 td {
+	font-size: .9em;
+	font-weight: normal;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	padding:0;
+	padding-left:.5em;
+	border:none;
+	}
+.browseSuperEntry {
+	margin: .25em 0 0 0;
+	}
+
+/* Hide most of the results page nav links: */
+td.browsePager > a:nth-of-type(n+2):nth-last-of-type(n+2) {display:none;}
+
+/* "tableparambrowse" ID is LC-specific */
+#tableparambrowse tr.browseSuperEntry td {background-color:#fbf8e3;}
+
+/* LC. Andrew Welch's RightResult script in use */
+.rrUserQuery {
+	padding: 0;
+	font-weight: normal;
+	display: block;
+	}
+/* LC. Suppress record browse brief display button (part of Welch script) */
+a.brief_detail {display:none}
+
+
+/* Hide the index search sort mechanism (for space considerations): */
+select#sortdropdown , span#sort_cell {display:none}
+
+/* Hide the "limit to available" checkbox in search widgets */
+div.browseSearchtool form div , div.bibSearchtool form div {
+	display:none;
+	}
+	
+/* Hide the row with save all/marked and "locate in results" buttons on results screens */
+td.browseSaveJump  {display:none}
+	
+/* The following rule puts the search button on the same line as the rest of the form elements in the browse screen widget: */
+div.browseSearchtool {margin:0 .1em; padding:0}
+
+
+div.browseSearchtoolMessage {margin:.1em .1em .75em .1em; padding:0}
+div.browseSearchtoolMessage i {display:block}
+div.browseSearchtoolMessage  {font-size:80%}
+div.browseSearchtoolMessage a  {padding:0 .25em;}
+
+input#searcharg {width:30%}
+
+/* ### Index search results table ### */
+td.browseHeaderNum , td.browseHeaderMark , td.browseHeaderYear, td.browseHeaderEntries {display:none;}
+td.browseHeaderData {font-size:90%;color:#808080;border:none;font-weight:normal}
+tr.browseHeader > td.browseHeaderData {padding:.5em 0 0 0;}
+.browseEntry td {border:none}
+td.browseEntryNum , td.browseEntryMark , td.browseEntryYear, td.browseEntryEntries {display:none;}
+td.browseEntryData {padding:.25em 0;}
+td.yourEntryWouldBeHereData {padding:0;}
+/* SubEntry rules only needed if any index search defaults to extended display */
+td.browseSubEntryData {padding:0 0 .5em .5em;text-indent:-1.75em;}
+td.browseSubEntryData strong {display:none;}
+td.browseSubEntryData a {display: block;margin-left: 2em;}
+td.browseSubEntryYear {display:none;}
+table.browseScreen tr.msg td {display:none;}
+
+
+/*  ######
+ >>> Bib Record Display
+ ###### */
+
+/* ### Item records ### */
+th.bibItemsHeader {display:none}
+table.bibItems {
+	width:100%;
+	margin:0 1em;
+	border:none;
+	}
+table.bibItems td {width:100%;border:none;padding:0; background-color:inherit;}
+table.bibItems tr:first-child {margin-bottom:0;}	
+table.bibItems tr {margin-bottom:.5em;}
+input[value^="View additional"] {width:90%;margin-top:.25em}
+div.additionalCopiesNav {display:none;}
+div.additionalCopies td {font-size:.9em}
+
+/* ### 856 links ### */
+table.bibLinks th {background-color:inherit; border:none;margin-left:-1em}
+table.bibLinks {
+	width:90%;
+	margin:0 0 0 1em;
+	border:none;
+	}
+table.bibLinks td {width:90%;border:none;padding:0; background-color:inherit;display:list-item;margin-bottom:.25em}
+
+/* ### Holdings/checkin records ### */
+/* Make "recent issues" link not appear as a link: */
+td.bibHoldingsLabel em a:link , td.bibHoldingsLabel em a:visited {color:#808080;text-decoration:none;}
+td.bibHoldingsLabel{color:#808080;font-weight:normal;font-size:.9em;} 
+td.bibHoldingsEntry {margin-left:.25em;}
+table.bibHoldings {
+	width:100%;
+	margin:0;
+	border:none;
+	}
+table.bibHoldings td {width:100%;border:none;padding:0; background-color:inherit;margin-bottom:.25em}
+table.bibHoldings tr {display:block}
+table.bibHoldings td {display:inline;}
+
+/* ### Order records ### */
+table.bibOrder {
+	width:100%;
+	margin:-.25em 0 -.5em -.5em;
+	border:none;
+	}
+table.bibOrder td {text-align:left;font-weight:normal}
+table.bibOrder td span {display:block}
+table.bibOrder td p {display:none;}
+
+/* ### 970 tables of contents ### */
+/* LC. Table is hidden at first. Javascript reveals it. */
+table.bibTOC th {display:none}
+table.bibTOC {display:none}
+table.tocshow {display:table}
+table.bibTOC {
+	width:100%;
+	margin:0 0;
+	border:none;
+	}
+
+/* Hide all but the chapter title in 970 ToCs: */
+.bibTOC tr > td:first-child , .bibTOC tr > td:last-child {display:none;}
+.bibTOC tr td[width="10%"] {display:none}
+
+table.bibTOC td {display:list-item;border:none;padding:0;margin-left:1em;list-style-image: url("/screens/blue_arrow.png");}
+a.rollup {background:none;}
+
+
+div.bibSearchtoolMessage {display:none}
+/*
+div.bibSearchtoolMessage i {display:block}
+div.bibSearchtoolMessage {font-size:80%}
+div.bibSearchtoolMessage a {padding:0 .25em;}
+*/
+
+div.bibPager {text-align:left}
+
+/* LC. Hide the KW highlight toggle: */
+div#hilitesSwitch {display:none;}
+
+/* LC. bib_display.html uses class=bibScreen for div that holds bib info */
+div.bibScreen {
+	float:none;
+	width: 100%;
+	margin-top:.2em;
+	}
+
+td.bibInfoData {width:100%;margin-top:.2em}
+td.bibInfoLabel {width:100%;margin-left:-.5em;font-size:.9em;margin-top:.5em;}
+td.bibInfoLabel:after {content:":"}
+
+/* "bibScreen" most likely LC-specific; rest is not */
+div.bibScreen table.bibItems {margin-left:-.25em;}
+div.bibScreen table.bibItems td , div.bibScreen table.bibLinks  td{padding-top:.2em}
+
+/* LC. The following batch of stuff is LC-specific */
+div#smsfeatures , div.RightBibTable {display:none}
+.permalink {text-align:left;}
+.bibTitle td.bibInfoLabel {width:100%; color:#808080;	font-size:.9em;}
+div.bibTitle {margin:0;}
+div.CenterBox {border:none;}
+div#topBibPager , div#botBibPager {border:none;}
+.bibPager {font-size: .9em}
+.bibPager a {font-size:100%;	margin: 0 .5em;}
+table.bib_detail {margin-top:0;} 
+
+/* Labels for holdings section and 970 TOC: */
+
+#bibHoldingsM , #bibToCM {
+	display:block;
+	color:#808080;
+	font-size:.9em;
+	margin-left:-.5em;
+	margin-top:.5em;
+	}
+
+	
+/*  ######
+ >>> Course Record Display
+ ###### */
+ 
+table.reserveBibs {border: none;margin-bottom: 1em;margin-top:.5em;width:100%;}
+table.reserveBibs tbody > tr:nth-child(3) {text-align:left;}
+table.reserveBibs td {border: none; font-size: 100%; padding: 0;width: 100%;}
+table.reserveBibs tr:nth-child(even) td {background-color:#eee;}
+table.reserveBibs tr {margin-bottom:1em}
+table.reserveBibs td {padding:.25em;}
+
+/* When there's only one item, hence no sort buttons, get rid of the title/author/callno row: */
+table.reserveBibs tbody > tr:nth-child(2) td  {display:none;}
+
+/* LC uses Javascript to re-label the sort buttons.
+  Use "inline" in next rule if using the JS. 
+	Use "block" if not using the JS and using the ::before text below */
+table.reserveBibs tbody > tr:nth-child(3) td {display:inline;}
+
+/* If not using JS to alter sort buttons, uncomment the next two rules and set the above rule to "block".
+table.reserveBibs td[scope="col"]:first-child::before {content:"Sort by";}
+table.reserveBibs td[scope="col"]:nth-child(2)::before {content:"Sort by";}
+*/
+
+table.reserveBibs input {font-size:.8em;}
+
+/* Get rid of callno sort: */
+table.reserveBibs tbody > tr:nth-child(3) td:last-child input {display:none}
+
+
+/* Make sure we get proper display when there's only one item. DO NOT move this rule up higher in the sheet. */
+table.reserveBibs tbody > tr:last-child td {display:block;}
+
+
+/*  ######
+ >>> Search Screens
+ ###### */
+ 
+/*LC. Hide list of search types on opacmenu and mainmenu: */
+table.searchTypeList {display:none;}
+
+/* "searchForm" is LC-specific ID given to body on both opacmenu and mainmenu. This is where we make the buttons on the start page big. */
+body#searchForm input {width:85%;margin:auto;margin-bottom:1em;font-size:1em;}
+body#searchForm select {width:90%;margin:auto;margin-bottom:1em;font-size:.9em;}
+#searchForm input[type="submit"] {width:90%;font-size:1em;}
+#searchForm form {margin-top:0;width:95%}
+#searchForm img.prevscreen {display:none}
+#searchForm div.searchFormTitle {display:none;}
+#searchForm #topBibPager {display:none}
+
+/* ### Advanced word search form ### */
+form#search {width:100%}
+form#search input[type="submit"] , form#search input[type="reset"] {display:block; font-size:1em;width:100%;}
+form#search input[type="reset"] {margin-top:1em}  
+form#search input[name^="searchText"]{margin-bottom:1.5em;display:inline;width:60%}
+form#search select[name^="fieldLimit"]{display:inline}
+form#search td {width:100%;border:none}
+form#search td select {width:80%}
+#search td {font-weight: normal;}
+/* LC. */
+table.searchLimits {width:100%;border:none}
+td.limit table {border:none}
+td.limit {width:100%;}
+p.searchFormExplain {margin-top:0;padding-top:0}
+p.searchFormExplain br {display:none;}
+#awsContainer #topBibPager {padding:0;font-size:.8em}
+#awsError h2 {width:100%}
+#search table  {
+	border:none;
+	width: 90%;
+	margin-left:-.25em
+	}
+#search table tbody tr td.limit {
+	font-weight: normal;
+	}
+#search table tbody tr td.limit table tbody tr td {
+	font-weight: normal;
+	}
+table#advKWexamples  {width:100%}
+table.limitPageTableLaf {display:none;}
+
+/* ### Index search limit page (srchmod.html) ### */
+/* Most is LC-specific, but see the customizable forms edits page in the instructions. */
+#srchmodContainerM {display:block;}
+#srchmodContainerM input[type="submit"] {font-size:1.5em;width:100%}
+.srchmodLimitM #sortdropdown {display:block}
+.srchmodLimitM {margin-bottom:1em; padding:.5em; border:silver solid 1px;}
+input[name="Ya"] , input[name="Yb"] {display:block}
+.srchmodYearM {margin-left:1em;}
+div.srchmodLimitM:nth-child(odd) {background-color:#eee;}
+body#srchmod .bibRecordBottom , body#srchmod .bibPager{display:none}
+
+.errormessage {
+	color: #000;
+	background: #ffff99;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 92%;
+	padding: .5em;
+	text-align: left;
+	margin: 0;
+	}
+
+/* ###### 
+>>> Workzone for nav buttons 
+###### */
+
+div.navigationRow {text-align:left;padding:0 1em;margin-bottom:1em}
+div.navigationRow a {text-decoration:none;}
+
+/* If using textual nav links, suppress all images:
+div.navigationRow img {display:none;}
+
+If using textual nav links, make them look like buttons:
+a span.returntoresults , a span.startover , a span.modify , a span.limitsearch , a span.prevscreen , a span.buttonM {
+	display:inline;
+	text-decoration:none;
+	background: none repeat scroll 0 0 #eee;
+	border: 2px solid #ccc;
+	margin: .25em;
+	padding: .3em .5em;
+	font-size:.8em;
+	font-family:Helvetica;
+	color:#000;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	}
+*/
+
+/* If using "regular" nav buttons, hide nav buttons we don't want.
+  This depends on adding class names to nav buttons using the 
+	ICON_BUT_ wwwoptions. If not using those wwwoptions, use the alt value
+	to suppress unwanted nav buttons (see instructions). */
+img.markrec, img.unmarkrec , img.marc , img.brief , img.extended  {display:none}
+
+/* ### LC - Location pop-up windows ### */
+body#location {margin: 2em 1em 3em 1.5em;}
+#location p {font-family:Helvetica;margin:1em;}
+#location div#closer {text-align:center} 
+
+/* ### Patron log in screens (pverify_web.html and pverify2_web.html) ### */
+
+/* LC gives id="pRecLogin" attribute to body element */
+#pRecLogin #topBibPager {padding:0;margin-top:-.5em;font-size:.8em;}
+#pRecLogin form {}
+#pRecLogin .bibScreen {margin:0; padding:0}
+
+#pRecLogin input[type="submit"] {font-size:1em;width:60%;margin-top:.5em}
+#pRecLogin div.errorMsg {width:100%;font-size:.9em;font-weight:normal;}
+
+/* ### Logged in views ### */
+
+/* Patron record view ( patronview_web.html) */
+/* LC wraps page in patronRecView div and each link in its own div */
+#patronRecView .bibSearchtool {display:none;}
+#patronRecView #topBibPager {padding:0;margin-top:-.5em}
+#patronRecView .bibScreen {width:98%}
+/* Override margin set in Prostyles.css: */
+#patronRecView .bibScreen {margin:0}
+#patrecInfo {font-size:.8em;margin-top:0;}
+#patrecInfo strong {padding-left: 0;}
+.patrecLink {margin:.25em 0;}
+#patrecPreferred {display:none;}
+
+input[name="sortByDueDate"] {display:none;}
+input[name="requestRenewAll"] {display:none;}
+input[name="requestRenewSome"] {width:100%;font-size:1em;}
+input[name="sortByRequest"] {display:none;}
+.patFuncArea {margin:0;width:100%}
+tr.patFuncHeaders {display:none;}
+table.patFunc td {border:none; padding:.25em}
+.patFuncBarcode , .patFuncCallNo , .patFuncPickup , .patFuncCancel {display:none;}
+td.patFuncMark , td.patFuncTitle {display:table-cell;vertical-align:top;padding-top:0}
+table.patFunc td.patFuncStatus {text-align:left;padding-left:2.25em;margin-bottom:.5em;margin-top:0}
+input[name^="renew"] {width:2em;height:2em;}
+tr.patFuncEntry:nth-child(odd) td {background-color:#eee;}
+#renewfailmsg h2 {font-weight:normal;font-size:100%}
+
+/* Renewal confirmation screen */
+#renewConfirm .bibSearchtool , #renewConfirm .navigationRow {display:none;}
+#renewConfirm #topBibPager {padding:0;margin-top:-1.5em;}
+.confirmationprompt {font-size:1em;}
+#renewConfirm input {font-size:1em; width:30%;margin-right:1em}
+#renewConfirm div.bibScreen {margin:0; padding:0;width:100%}
+
+/* LC. Hide "Save to preferred searches" button: */
+input[name="SUBPREF"] {display:none;}

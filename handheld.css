@@ -1,0 +1,3 @@
+body{font: 95% Arial, Helvetica, sans-serif;}
+#library-header-wrapper,#site-title-wrapper,#library-nav-footer,#site-navi,#footer_csu,#footer_address,#loggedinmsg{display:none;}
+h1.page-title{font-size: 1.25em;}

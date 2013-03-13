@@ -1,0 +1,158 @@
+body{
+font-family:Arial, Helvetica, sans-serif;
+font-size: .9em;
+margin:auto;
+padding: auto;
+background-image: none;}
+#library_footer_wrapper,
+#footer,
+#footer_frame,
+#csusm-header-region{
+width:660px;
+margin: 0px;
+padding:0px;
+background-color:#fff;
+border: none;
+background-image: none;}
+#csusm-options{
+width:350px;
+text-align: right;
+padding:4px 0px 6px 10px;
+background: url(/images/csusm/csusm-logo-index8.png) 100% 36px no-repeat transparent;}
+#footer,
+#footer_frame{
+float:left;
+margin-left:10px;}
+#library-header[id],
+#library-header{
+width:640px;
+height: 10px;
+margin: 0px;
+padding:0px}
+#db-table-layer,
+#db-table-layer[id],
+#db-table-layer.wide-layout,
+.wide-layout,
+#page-content-main-inner,
+#page-content-main,
+#db-table-layer[id].wide-layout[class] {
+width: 100%;
+padding:0px;
+margin:0px;
+min-width:600px;}
+#db-table-layer table{
+width:auto;
+margin:0px;}
+#site-title,#site-breadcrumb,h1,h2,h3,h4,p{
+margin:12px 0px;
+padding:auto;
+height:auto;}
+a:link#site-title,
+a:hover#site-title,
+a:visited#site-title,
+a:active#site-title {
+display: block;
+padding: 0px;
+left: -40px;}
+#site-breadcrumb{
+margin-top: -118px;
+border-bottom:1px solid #666;}
+h1{margin-top:10px;
+font-size:1.6em;
+position: relative;
+width: auto;}
+.righty-twothirds-panel{
+	margin-top:35px;
+	border-top: 1px solid #888;}
+.csusm-link,
+#csusm-link{
+display: block;
+position: relative;
+height: auto;
+padding:0px;
+display: block;
+margin-top:30px;
+text-align: right;
+float: right;
+font-size: 1.1em;
+text-decoration: none;
+color: #333;}
+#page-content-main{
+margin-top:-10px;}
+#library_footer_wrapper{
+height:80px;
+float:left;width:640px;}
+.open-section{
+background-image:none;}
+#right-sidebar-holder{
+margin:0px;
+padding:0px;
+float:none;
+width:100%;}
+.section-content{
+display: block !important;
+border:none !important;}
+
+/* Hidden Elements */
+#site-title,
+#urgent-notices,
+#library-header .access-only,
+#csusm-section,
+#nice-menu-7,
+.beta-text,
+.screen-only,
+#guides_open_all,
+#v_open_all,
+.to-page-top,
+.webct_option,
+#library-nav-footer ,
+.db_alt_section,
+#left-db-menu,
+.feedback_info,
+#footer_center,
+.float-right-options,
+#db-subj-header,
+#metasearchToggle,
+#library-header ul.inline,
+#library-nav{
+display: none;
+height: 0px;
+margin:0px;
+padding:0px;}
+
+#site-title #site-title-link .access-only{
+display: block;
+float: left;
+padding-right:10px;
+margin-right: 10px;
+margin-top: 30px;
+border-right: 1px solid #444;
+font-size: 1.1em;
+text-decoration: none;
+color: #333;
+position: relative;}
+
+/* Library Catalog */
+#site-title-wrapper,#library-header-wrapper,
+#site-title-wrapper div,#library-header-wrapper div{height: auto;}
+.navigationRow,#site-navi,.browseSearchtool,.bibSearch,#view-changer,.browseEntryRelGroup1,#save_page_btn1,.browsePager,.list_add,#library-nav-footer,#library_footer_wrapper,#library_footer,#footer_csu,.browseSaveJump,.catalog_layout .bibSearchHistory,#marcFields,#toolboxholder,.catalog_layout #top-tabs-menu{display:none;}
+.catalog_layout h1.page-title{display:block;margin: 0px 0px 15px 0px;padding: 0px;color: #444;font-size: 1.25em;}
+.browseScreen{border: none;width: auto;margin:auto;float: left;}
+.browseScreen tabl,browseScreen div{width: auto;}
+.briefcitEntry{width:30px;}
+#bibDisplayBody{font-size: .95em;width: auto;margin: 0px;padding: 0px;border:none;}
+#page-content-main-inner{border:none;}
+.catalog_layout #bibLeft{margin: auto;width:auto;float: none;position: absolute; right:40px;*right:0px;top:180px;*top:-90px;z-index: 100;background-color: transparent;}
+.catalog_layout #bibCentral{margin: 0px;clear: right;font-size: .85em;z-index:1;padding: 0px;}
+.catalog_layout #bibRight{float: none;margin:auto;display: none;}
+.catalog_layout .ui-tabs-panel{border: none;min-height:0px;padding: 10px 0px;margin: auto;width: auto;}
+#google{position: absolute;left:auto;
+right: 30px;
+*right:-135px;
+top:-40px;
+*top: 75px;}
+#bibDisplayContentMore,#container-tabs,#bibDisplayContent table.bibLinks,#bibDisplayContent table.bibLinks td,#bibDisplayContent table.bibLinks th{width: auto;padding: 0px;margin: 0px;min-width:auto;}
+#bibDisplayBody table.bibOrder,#bibDisplayBody table.bibItems{width:400px;margin: 0px;min-width:0px;border: 1px solid #888;}
+#bibDisplayLayout,table.bibDetail,table.bibDetail table,#titleholder table, #titleholder #bibInfoData{width:450px;margin: 0px;min-width:0px;max-width:470px;padding: 0px;display: inline;}
+#container-tabs{width:490px;*width:500px;}
+#bibDisplayBody #holdings input{display: none;}

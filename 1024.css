@@ -1,0 +1,24 @@
+.panel-dash-central-middle {position:relative;width: 95.75%;min-width: 400px;}
+.multisearch-tabs {width:95.75%}
+.dash-cmid-right{width:auto;position:relative;float:left;z-index:1000;}
+#help-panel{width:190px;margin-left:5px;}
+.dash-cmid-left{margin-left: 215px;position: relative;width:auto;}
+#dynamic_spotlights .views-slideshow-controls-top{margin-right:5px}
+#dynamic_spotlights .views_slideshow_slide {max-height: 80px !important;max-width: 250px !important;}
+#dynamic_spotlights .more_spotlights {}
+#dynamic_spotlights .pane-content {width:auto;}
+body{font:.75em Arial,Verdana,Helvetica,sans-serif;}
+#nice-menu-7 li:hover ul, .menuparent li:hover ul, #nice-menu-7 .over ul{visibility:visible;}
+.view-id-Urgent_Notices {margin-left: 440px;}
+.libary-hours-list .hours_list_row h4,.libary-hours-list .date-display-single,.libary-hours-list .hours_list_row .field-content {display:block;width:auto;float:none;}
+.libary-hours-list .date-display-single br{display:inline;}
+.field-content .today-display, .field-content .date-display-single {display: none;}
+.libary-hours-list .upcoming-times {display: block;}
+.pane-library-hours-calendar .view-footer {width:auto;}
+.logged-in .panel-dash-left h4, .panel-dash-left2 .pane-title, .panel-dash-right .pane-title, .panel-dash-central-middle .pane-title, .panel-dash-central-mid2 .pane-title {min-width:10px;}
+#person-link .help-title {background: url("/images/sprite-main1.png?123456") no-repeat scroll -107px -713px transparent;width:165px;}
+#chat-link .help-title {background: url("/images/sprite-main1.png?123456") no-repeat scroll -130px -757px transparent;}
+#email-link .help-title {background: url("/images/sprite-main1.png?123456") no-repeat scroll -132px -588px transparent;}
+.help-link{padding-left:10px;}
+.panel-dash-central-mid2 {width: 98.5%;}
+block-block-4 input#summons-query {max-width: 240px;width: 50%;}
