@@ -19,10 +19,10 @@ h1.page-title{margin-top:-25px}
 center #library_footer a img{display:inline}
 #toggleResultsDisplay{display:none}
 .bibNavRow{cursor:pointer}
-#site-navi a,a#newSearchlink,a#extendedDisplaylink,a#userRecordlink,.library_catalog #page-content-main-inner.export_page a#prevScreenlink,a#logoutlink,a#clearSavedlink,.navigationRow a,.magFive a{visibility:visible;z-index:1;background:url(https://biblio.csusm.edu/sites/all/images/buttons/blue-button.png) 0% 99% repeat-x/*#164d59 #658628*/;display:block;padding:0;float:left;margin:0 4px -7px 0px;outline:none;text-decoration:none;-moz-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;-webkit-border-radius:3px 3px 0 0}
+#site-navi a,a#newSearchlink,a#extendedDisplaylink,a#userRecordlink,.library_catalog #page-content-main-inner.export_page a#prevScreenlink,a#logoutlink,a#clearSavedlink,.navigationRow a,.magFive a{visibility:visible;z-index:1;background:#478FBC;display:block;padding:0;float:left;margin:0 4px -7px 0px;outline:none;text-decoration:none;-moz-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;-webkit-border-radius:3px 3px 0 0}
 #site-navi a:hover,a#newSearchlink:hover,a#extendedDisplaylink:hover,.library_catalog #page-content-main-inner.export_page a#prevScreenlink:hover,a#clearSavedlink:hover,.navigationRow a:hover,.magFive a:hover{z-index:1;filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity:0.8;opacity:0.8}
 a#newSearchlink img{display:none}
-a #newSearch, a #Ret2Browse, a #modifySearch, a #viewSaved, a #clearSaved, a #prevScreen, a #extendedDisplay, a #userLogout,a #userRecord, a #userAccount,.magFive a, #site-navi a #sdCircuit, #site-navi a #worldCat, #site-navi a #worldCatB, .navigationRow a #sdCircuit, .navigationRow a #worldCat, .navigationRow a #extendedDisplay, .navigationRow a #briefDisplay, .navigationRow a #displayAvail,.navigationRow a #regularDisplay,.navigationRow a #limitSearch{outline:none;text-decoration:none;display:block;color:#fff;font-weight:bold;padding:7px 10px 13px 30px;z-index:1;float:left;-moz-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;-webkit-border-radius:3px 3px 0 0;box-shadow:0 -2px 6px #ddd;-moz-box-shadow:0 -2px 6px #ddd;-webkit-box-shadow:0 -2px 6px #ddd}
+a #newSearch, a #Ret2Browse, a #modifySearch, a #viewSaved, a #clearSaved, a #prevScreen, a #extendedDisplay, a #userLogout,a #userRecord, a #userAccount,.magFive a, #site-navi a #sdCircuit, #site-navi a #worldCat, #site-navi a #worldCatB, .navigationRow a #sdCircuit, .navigationRow a #worldCat, .navigationRow a #extendedDisplay, .navigationRow a #briefDisplay, .navigationRow a #displayAvail,.navigationRow a #regularDisplay,.navigationRow a #limitSearch{outline:none;text-decoration:none;display:block;color:#fff;font-weight:bold;padding:7px 10px 13px 30px;z-index:1;float:left;-moz-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;-webkit-border-radius:3px 3px 0 0;}
 a #newSearch{padding:7px 10px 13px 37px;background:url(/images/catalog/home.png) 7px 25% no-repeat}
 #site-navi a #modifySearch, .navigationRow a #modifySearch{background:url(/images/catalog/filter.png) 7px 50% no-repeat}
 #site-navi a #worldCat, #site-navi a #worldCatB, .navigationRow a #worldCat{padding:7px 10px 13px 34px;background:url(/images/catalog/worldcat.png) 7px 30% no-repeat}
@@ -43,7 +43,7 @@ a #clearSaved{background:url(/images/catalog/clear_list.png) 7px 50% no-repeat}
 .bibSearch /* bib record */,
 .bibSearchtool /* user account */{
 text-align:left;background:none;padding:0;*width:940px;margin:0 auto;min-width:870px;max-width:940px;z-index:5;border:none}
-.browseSearchtool form,.bibSearch form,.bibSearchtool form{z-index:5;float:left;font-style:normal;margin-top:-2px;width:100%;min-width:850px;position:relative;padding:16px 10px 49px 2%;background:url(/images/bg.gif) 0 100% repeat-x #fff;border:1px solid #ddd;}
+.browseSearchtool form,.bibSearch form,.bibSearchtool form{z-index:5;float:left;font-style:normal;margin-top:-2px;width:100%;min-width:850px;position:relative;padding:16px 10px 49px 2%;background:url(/images/bg.gif) 0 110% repeat-x #fff;border:1px solid #cdcdcd;}
 .bibSearch form{margin-top:3px}
 
 /* Search Form Fields */
@@ -214,10 +214,10 @@ tr.briefcitTableRow .briefcitHolder:hover{background:#FFFFC6 /*#FCFAA7*/}
 #bibDisplayContentMore .bibInfoLabel,#bibDisplayContentMore .bibInfoData{font-size:.95em}
 #bibDisplayContentMore .bibInfoLabel{width:140px}
 #bibDisplayContentMore #isbnRow .bibInfoData{font-weight:bold}
-.catalog_layout .ui-tabs-panel{border:1px solid #ddd;-moz-border-radius:3px;border-radius:3px 3px 3px 3px;-webkit-border-radius:3px 3px 3px 3px;background:#fff;float:none;width:90%;z-index:1;margin:0;min-height:145px;padding: 15px 0 0 10px;box-shadow:0 0 9px #ddd;-moz-box-shadow:0 0 9px #ddd;-webkit-box-shadow:0 0 9px #ddd}
+.catalog_layout .ui-tabs-panel{border:1px solid #ddd;-moz-border-radius:3px;border-radius:3px 3px 3px 3px;-webkit-border-radius:3px 3px 3px 3px;background:#fff;float:none;width:90%;z-index:1;margin:0;min-height:145px;padding: 15px 0 0 10px;}
 #container-tabs #top-tabs-menu,.catalog_layout #top-tabs-menu{display:block;padding-left:10px}
 #top-tabs-menu li{margin:0;*margin-bottom:-1px;background-image:none;height:27px;}
-#top-tabs-menu.ui-tabs-nav li a{-moz-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;-webkit-border-radius:3px 3px 0 0;border-left:1px solid #ccc;border-right:1px solid #ccc;border-top:1px solid #ccc;padding:5px 11px 1px;display:block;margin-bottom:4px;background-image:none;background:#67613D;position:relative;text-decoration:none;color: #fff;box-shadow: 0 -2px 7px #dedede;-moz-box-shadow: 0 -2px 7px #dedede;-webkit-box-shadow: 0 -2px 7px #dedede;}
+#top-tabs-menu.ui-tabs-nav li a{-moz-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;-webkit-border-radius:3px 3px 0 0;border-left:1px solid #ccc;border-right:1px solid #ccc;border-top:1px solid #ccc;padding:5px 11px 1px;display:block;margin-bottom:4px;background-image:none;background:#676767;position:relative;text-decoration:none;color: #fff;}
 #top-tabs-menu.ui-tabs-nav li a span{display:inline;padding:0;margin:0;background-image:none}
 #top-tabs-menu.ui-tabs-nav li.ui-tabs-selected a{border-bottom:none;color:#333;z-index:10;padding: 6px 11px 0;display:block;margin-bottom:-3px;background-color:#fff}
 .indent_para{padding-left:25px}
@@ -227,12 +227,13 @@ tr.briefcitTableRow .briefcitHolder:hover{background:#FFFFC6 /*#FCFAA7*/}
 #bibDisplayBody .bibSearchtoolMessage,#titleholder .bibInfoLabel,#bibDisplayBody h4.bareBreaker,#top-tabs-menu{display:none}
 
 /* #bibRight */
-#bibRight h4{margin:1px;font-weight:normal;font-size:1.25em;padding:11px 5px 6px 40px;background:#3F7281;color:#333}
+#bibRight h4{margin:0;font-weight:normal;font-size:1.25em;padding:11px 10px 6px;background:#3F7281;color:#666}
 
 /* bib-level toolbox */
-#toolboxholder{border:1px solid #ddd;margin:0 0 10px;padding:0;-moz-border-radius:3px;border-radius:3px 3px 3px 3px;-webkit-border-radius:3px 3px 3px 3px;box-shadow:0 0 9px #ddd;-moz-box-shadow:0 0 9px #ddd;-webkit-box-shadow:0 0 9px #ddd}
-#toolboxholder h4{background:url(/images/catalog/tools.png) 10px 60% no-repeat #CDDCFE;color:#333}
-.tools_row{clear:both;padding:8px 5px;height:35px}
+#toolboxholder{border:1px solid #ccc;margin:0 0 10px;padding:0;-moz-border-radius:3px;border-radius:3px 3px 3px 3px;-webkit-border-radius:3px 3px 3px 3px;}
+#toolboxholder h4{background:#CDDCFE;color:#333}
+.tools_row{clear:both;padding:8px 5px;height:35px;}
+.addthis_toolbox .more{display: none;}
 
 /* AddThis */
 .addthis_toolbox{width:230px;float:none;padding:0}
@@ -244,19 +245,23 @@ tr.briefcitTableRow .briefcitHolder:hover{background:#FFFFC6 /*#FCFAA7*/}
 .addthis_toolbox .custom_images,.addthis_button_email{text-decoration:none}
 .addthis_button_email,.addthis_button_print{margin:1px 6px 0 0;height:30px;padding-top:2px;padding-left:36px}
 .addthis_toolbox .custom_images a:hover img{vertical-align:top;margin-right:4px;-moz-opacity:0.6;-khtml-opacity:0.6;opacity:.6}
-.addthis_toolbox .custom_images a:hover{padding:3px 3px 0;border:1px solid #aaa;background:#f8f8f8}
+.addthis_toolbox .custom_images a:hover{filter:alpha(opacity=60);-moz-opacity:0.6;-khtml-opacity:0.6;opacity:.6}
 .addthis_toolbox .custom_images a img{margin-right:4px;float:left;vertical-align:top}
-.addthis_toolbox .citationholder a{background:url(/images/catalog/cite.png) 2px 4px no-repeat transparent;display:block;height:19px;margin-left:3px;padding:6px 6px 10px 30px}
-.addthis_toolbox .citationholder a:hover{background:url(/images/catalog/cite.png) 1px 3px no-repeat #f8f8f8;border:1px solid #666;margin-left:3px;padding:5px 5px 9px 29px;filter:alpha(opacity=60);-moz-opacity:0.6;-khtml-opacity:0.6;opacity:.6}
+.addthis_button_email img{width:24px;height:19px;display:none;}
+.addthis_button_print img{width: 20px;height: 20px;display:none;}
+.addthis_toolbox .addthis_button_email {background:url(//biblio.csusm.edu/images/icons/email2.png) 2px 4px no-repeat transparent;display:block;height:19px;margin-left:3px;padding:6px 6px 10px 30px}
+.addthis_toolbox .addthis_button_print {background:url(//biblio.csusm.edu/images/icons/printer1.png) 2px 4px no-repeat transparent;display:block;height:19px;margin-left:3px;padding:6px 6px 10px 30px}
+.addthis_toolbox .citationholder a{background:url(//biblio.csusm.edu/images/icons/pen.png) 2px 4px no-repeat transparent;display:block;height:19px;margin-left:3px;padding:6px 6px 10px 30px}
+.addthis_toolbox .citationholder a:hover{filter:alpha(opacity=60);-moz-opacity:0.6;-khtml-opacity:0.6;opacity:.6}
 .addthis_toolbox .more a:hover{padding-left:25px}
 .citationholder{display:inline}
 
 /* Subjects list in right column */
 #bibRight #rightSubjectsHolder{padding:0 0 10px;border:1px solid #ccc;-moz-border-radius:5px;border-radius:5px}
-#rightSubjectsHolder h4{background:url(/images/catalog/subjects.png) 10px 80% no-repeat #FCE06D /*#489197 #3F7281*/;padding-left:40px}
+#rightSubjectsHolder h4{background:#FCE06D /*#489197 #3F7281*/;}
 #bibRight #rightSubjectsHolder a,#bibRight #rightSubjectsHolder font{color:#06C}
 #bibRight #rightSubjectsHolder font strong{font-weight:normal;font-size:1em}
-#bibRight .bibInfoLabel{width:1px;font-size:0px;color:#fff}
+#bibRight .bibInfoLabel{width:1px;font-size:0px;color:#fff;padding:4px 0;}
 
 /* Advanced Search */
 .srchhelpText{padding:0}
