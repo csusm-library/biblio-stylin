@@ -1,0 +1,31 @@
+body{font: 95% Arial, Helvetica, sans-serif;background:#fff}
+.handheld-only{display:block;}
+span.icon_space{display:block;text-decoration:none;height:40px;padding:0 0 2px;background: transparent;margin:0 auto 5px auto;width: 39px;background-image:url(https://lib2.csusm.edu/cdn/imgs/mlib-sprite1-pub.jpg); background-repeat:no-repeat;}
+#library-header-wrapper,#library-header,#site-title-wrapper,site-title-inner,
+.catalog_layout h1.page-title,#library-nav-footer,#site-navi,#footer_csu,#footer_address,#loggedinmsg,.homelinks{display:none;}
+#container,#page-content-main,#page-content-main-inner{background-image: none;background-color:transparent;border:none;margin:0;min-height: 30px;max-width:640px;padding:0;z-index:1;min-width:200px;}
+#page-content-main-inner{background-color: #fff;padding:0 5px 5px;}
+h1.page-title,h1.login-page-title{display: block;font-size: 1.25em;background-color:#fff;background-image:none;min-width:200px;margin:-40px 0 0;padding:12px 4px 4px;border:none;float:none;}
+#library_footer_wrapper,#library_footer,.home_link{width:auto;min-width:200px;max-width:640px;}
+#feedback_info{float:none;position:relative;}
+
+/* Home link & icon */
+.home_link{background: #fff;height:40px}
+.home_link span.icon_space{background-position:0 -600px;height:36px;float:left;margin: 2px 0 0 4px}
+.home_link span.homelink_text{float: left;margin: 5px 0 0;padding: 9px 7px 3px; border: 1px solid #ccc;background:#069;color:#fff;-moz-border-radius: 2px;-webkit-border-radius: 2px;}
+.home_link.bottom{clear: both;position:relative;}
+
+/* User Account */
+#patronaccount_home{margin-top:-30px;}
+#csusm_login_form,#ill_login_form,#external_auth_form{width:240px;float:none;margin:0 0 0 5px;height:auto;}
+#csusm_login_form .webform-component-fieldset,#ill_login_form .webform-component-fieldset,#external_auth_form .webform-component-fieldset{width:29px;float:none;}
+.patNameAddress{border:none;width:auto;padding:5px 20px 10px 5px}
+.ill-login-link{position:absolute;right:5px; top:-35px;margin-top: 0; width:190px;border:1px solid #ccc; padding:4px;font-size:.9em}
+.help-links{position:absolute;right:5px; top:-5px;margin-top: 0; width: 190px;border:1px solid #ccc; padding:4px;font-size:.9em}
+.patFunc .patFuncBarcode{width:30px;overflow: scroll; font-size:9px;}
+#csusm_login_form legend a,#ill_login_form legend a,#external_auth_form legend a{width:240px;}
+#csusm_login_form .fieldset-wrapper,#ill_login_form .fieldset-wrapper,#external_auth_form .fieldset-wrapper{width:252px;}
+#ill_login_form{float:none;margin: 0; height: auto;}
+.webform-component-fieldset{width:auto;float: none}
+#loggedinmsg{position: absolute;font-weight: bold;color:#464646;top: 2px;padding: 5px 0;right:0px;}
+#website-feedback {display:none;position:relative}
