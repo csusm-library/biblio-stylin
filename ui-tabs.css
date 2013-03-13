@@ -31,8 +31,7 @@ min-width: 84px; /* be nice to Opera */}
 
 .ui-tabs-nav a, .ui-tabs-nav a span {
 display: block;
-padding: 0 10px;
-background: url(/images/backgrounds/tab2.png) no-repeat;}
+padding: 0 10px;}
 
 .ui-tabs-nav a {
 margin: 1px 2px 0; /* position: relative makes opacity fail for disabled tab in IE */
@@ -124,4 +123,49 @@ display: inline-block;}
 
 *:first-child+html .ui-tabs-nav  { /* @ IE 7 Standards Mode - do not group selectors, otherwise IE 6 will ignore complete rule (because of the unknown + combinator)... */
 display: inline-block;}
+
+#db-table-layer #top-tabs-menu{
+  margin: 0 0 -2px;
+}
+
+#db-table-layer #top-tabs-menu li {
+  float: left;
+  margin: 3px 3px 0;
+  min-width: 84px;
+  border: 1px solid #CCC;
+  border-bottom: none;
+  position: relative;
+  background: #EEE;
+  padding-top: 2px;
+}
+
+#db-table-layer #top-tabs-menu .ui-tabs-selected{
+  background: white;
+  position: relative;
+  height: 34px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+#db-table-layer #top-tabs-menu a {
+  margin: -3px 2px 0;
+  padding-left: 0;
+  top: 0px;
+  color: #27537A;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  outline: 0;
+}
+
+#db-table-layer #top-tabs-menu .ui-tabs-selected a {
+  position: relative;
+  top: 0;
+  margin-bottom: -3px;
+  z-index: 2;
+  margin-top: 1px;
+  color: black;
+  display: block;
+}
 
