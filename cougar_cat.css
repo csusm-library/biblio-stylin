@@ -61,12 +61,12 @@ input[type="hidden"]{margin:0;padding:0;height:0px;width:0px}
 #sort_cell #sortbutton{position:absolute;margin-top:9px;*margin-top:0px;width:56px;padding:3px}
 .browseScreen td.browseSaveJump{padding:0;margin:0}
 .browseSaveJump input{font-size:1em;text-align:right;width:auto;padding:4px 1px 1px 4px}
-input[type="SUBMIT"], input[type="submit"],.browseSaveJump input.browseSaveJump,.browseSearchtool input[type="submit"],.bibSearch form input[type="submit"],.bibSearchtool form input[type="submit"],.browseSearchtool form #sortbutton,.bibSearchtool form #sortbutton,.bibSearchtool form input[type="submit"],.browseList #save_page_btn1 span,#btnLogin,.limit-search-buttons a{background:#369;border:none;color:#fff;cursor:pointer;font-size:1.1em;margin:0 4px;padding:4px 8px;text-transform:capitalize;outline:none;}
+form input[type="submit"],.browseSaveJump input.browseSaveJump,.browseSearchtool input[type="submit"],.bibSearch form input[type="submit"],.bibSearchtool form input[type="submit"],.browseSearchtool form #sortbutton,.bibSearchtool form #sortbutton,.bibSearchtool form input[type="submit"],.browseList #save_page_btn1 span,#btnLogin,.limit-search-buttons a{background:#369;border:none;color:#fff;cursor:pointer;font-size:1.1em;margin:0 4px;padding:4px 8px;text-transform:capitalize;outline:none;}
 .bibSearch form input[type="submit"]{margin-top:3px;position:absolute}
 input[name="availlim"]{margin-top:10px;*margin-top:7px;margin-left:250px;float:left}
 form span.lim2Avail{margin-top:9px;display:block;font-size:1.1em;margin-left:3px;float:left;font-style:normal}
 .bibSearch input[name="availlim"],.bibSearch form span.lim2Avail{display:none}
-.browseSearchtool form input[name="SUBPREF"],.bibSearch form input[name="SUBPREF"]{float:left;}
+.browseSearchtool form input[name="SUBPREF"],.bibSearch form input[name="SUBPREF"]{background-image:none;color:#069;float:left;outline:none;border:none;margin-left:335px;text-decoration:underline;padding:5px 0 0}
 .bibSearch form input[name="SUBPREF"]{display:none}
 #save_page_btn1{position:absolute;width:150px;display:block;margin:9px 0 0 2px;*margin-top:11px}
 .browseSaveJump #save_page_btn1 input[type="submit"]{position:relative;font-size:.9em;width:115px}
@@ -297,19 +297,18 @@ margin:3px 7px;*margin:9px 7px 0;padding:4px;width:240px}
 a #Ret2Browse{padding-left:34px;background:url(/images/catalog/sub_blue_prev.png) 7px 35% no-repeat}
 .library_catalog #page-content-main-inner.export_page h2{clear:both;font-size:1.5em;padding-top:25px}
 .library_catalog #page-content-main-inner.export_page center{width:880px;margin:0 auto;text-align:left}
-.library_catalog #page-content-main-inner.export_page table{text-align:left;width:auto;border:none;margin-left:18px;}
+.library_catalog #page-content-main-inner.export_page table{text-align:left;width:auto;border:none}
 .library_catalog #page-content-main-inner.export_page table.browseScreen{background:#fff;width:600px;margin:0px;padding:0}
-.library_catalog #page-content-main-inner.export_page table.browseList{width:750px;}
-.library_catalog #page-content-main-inner.export_page .browseList .browseEntry td{border-top: 1px solid #ccc;background: #fff !important}
-.library_catalog #page-content-main-inner.export_page table th{padding:15px 5px 0 25px;border:none;width:auto;background:none;color:#444;margin:0;text-align:left}
+.library_catalog #page-content-main-inner.export_page table.browseList{width:750px}
+.library_catalog #page-content-main-inner.export_page table th{padding:15px 5px 2px;border:none;width:auto;background:#06c;color:#fff;margin:0;text-align:left}
 .library_catalog #page-content-main-inner.export_page table td{
 width:auto;border:none;margin:0;vertical-align:top;text-align:left}
 .library_catalog #page-content-main-inner.export_page table td.emailer{
-padding:5px 5px 5px 111px;vertical-align:top;background:url(//biblio.csusm.edu/images/icons/email2.png) 32px 8px no-repeat no-repeat;border:none}
+padding:5px 5px 5px 111px;vertical-align:top;background:url(/images/catalog/email_send.png) 7px 10px no-repeat;border:1px solid #ccc}
 .library_catalog #page-content-main-inner.export_page table td.emailer input[type="radio"]{margin-left:-42px}
 input[name="email_addx"],input[name="email_subj"]{margin-left:10px;margin-bottom:6px;*margin-bottom:-4px;width:180px}
-.library_catalog #page-content-main-inner.export_page table td.printer{padding:9px 5px 5px 75px;height:22px;*height:10px;background:url(//biblio.csusm.edu/images/icons/printer1.png) 32px 8px no-repeat;border:none}
-.library_catalog #page-content-main-inner.export_page table td.downloader{padding:9px 5px 5px 75px;height:42px;*height:30px;background:url(//biblio.csusm.edu/images/icons/save.png) 32px 8px no-repeat;border:none}
+.library_catalog #page-content-main-inner.export_page table td.printer{padding:9px 5px 5px 75px;height:42px;*height:30px;background:url(/images/catalog/print.png) 23px 9px no-repeat;border:1px solid #ccc}
+.library_catalog #page-content-main-inner.export_page table td.downloader{padding:9px 5px 5px 75px;height:42px;*height:30px;background:url(/images/catalog/save.png) 23px 9px no-repeat;border:1px solid #ccc}
 .library_catalog #page-content-main-inner.export_page table td.printer input[type="radio"],
 .library_catalog #page-content-main-inner.export_page table td.downloader input[type="radio"]{margin:4px 4px 0px -4px}
 .library_catalog #page-content-main-inner.export_page table td .deleteSelected{margin-left:-1px}
@@ -363,13 +362,12 @@ border:none;width:100%;background:none}
 table.patFunc{border-collapse:collapse;border:0px none #fff;margin:8px 0 20px;background:#fff;border-spacing:0px}
 .patFuncArea tr{}
 .help-links{float:right;padding:0 5px}
-.patFuncArea th,.patFuncArea td,.patFunc th,.patFunc td{padding:9px;border:1px solid #ccc;}
-.patFuncArea th,.patFunc th{text-transform:lowercase;border-top:1px solid #ccc;color:#555}
-.patFuncArea th.patFuncTitle,.patFunc th.patFuncTitle{border:none;font-size:1.1em}
-.patFuncArea,.patFunc{border:0px none #fff}
+.patFuncArea th,.patFuncArea td{padding:7px 3px;border-bottom:1px solid #ccc;border-top:none;border-right:none}
+.patFuncArea th{text-transform:lowercase;border-top:1px solid #ccc;color:#555}
+.patFuncArea th.patFuncTitle{border:none;font-size:1.1em}
+.patFuncArea{border:0px none #fff}
 .patActionsLinks{text-align:left;padding:0 0 10px 5px}
-.patFuncArea input[type="submit"],.patFunc input[type="submit"]{font-size:12px;text-transform:lowercase;margin:0 8px 8px 0}
-.confirmationprompt {margin-bottom:12px;}
+.patFuncArea input[type="submit"]{font-size:12px;text-transform:lowercase;margin:0 8px 8px 0}
 
 /*Periodical forms on bib record */
 #bibDisplayBody #holdings input[name="volume"]{float:right}
