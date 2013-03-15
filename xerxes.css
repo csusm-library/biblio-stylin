@@ -51,9 +51,6 @@ float: left;}
 #search-sidebar.right{padding:0}
 
 /* Facets */
- #form-facet-4 label,.controller-books #form-facet-2 label{float:left;width:45px}
-#facet-date-start{margin-bottom:6px;}
-#form-facet-4 input[type=submit],.controller-books #form-facet-4 input[type=submit]{float: right;margin-top: -22px;margin-right: 56px;padding:2px 6px;}
 .sidebar .box li {list-style: none;}
 
 /* record level */
